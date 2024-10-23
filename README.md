@@ -114,6 +114,8 @@ index.html의 '자주찾는 서비스'탭의 '혁신비전' 아이콘을 클릭 
 # 사용/참고 자료
 
 <h3>폰트 사용 :  <a href="https://github.com/orioncactus/pretendard" target="_blank"> Pretendard GOV </a> </h3>
+<p>페이지 전반적으로 사용된 기본 베이스 폰트입니다.</p>
 <h3>폰트 사용 :  <a href="https://noonnu.cc/font_page/41" target="_blank"> 나눔명조 </a> </h3>
+<p>notice.html 페이지 특정 강조폰트에 사용된 폰트입니다.</p>
 
 <h3>디자인,레이아웃 참고 : <a href="https://uiux.egovframe.go.kr/guide/index.html" target="_blank"> KRDS 가이드라인 </a> </h3>
