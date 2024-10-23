@@ -23,8 +23,13 @@
 <hr>
 <h4>메인페이지인 index.html / 페이지 설명및 정책관련 페이지인 notice.html / 게시판 형식 페이지인 board.html 총 3개의 사이트로 구현되어있습니다. </h4>
 <h4>페이지 디자인을 위한 피그마 작업물은 <a href="https://www.figma.com/design/EajVe9m9p8OPz1LYpGKV1h/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%ED%97%88%EC%A0%95?node-id=65-46&t=SN401fvkuxwzNyIq-1" target="_blank">여기</a> 에서 확인 가능합니다. </h4>
+<hr>
+<h4>작업 기간 : 24.08.07 ~ 24.10.23 </h4>
+<h4>작업 영역 : Figma 와이어프레임 및 기능정의서 제작 | Figma 페이지 소개 ppt 제작 | HTML/CSS/JS 페이지 퍼블리싱(3개 페이지)</h4>
 
 ## 1. index.html
+
+![main](https://github.com/user-attachments/assets/8f66f21c-a548-4efa-b2cd-c4235d214b62)
 
 슬라이드쇼 기능 위주로 구현되어 있는 메인페이지입니다.
 footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이지 관련 기능을 제외하곤 기능까지 구현이 되어있습니다.
@@ -32,6 +37,8 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 반응형 사이즈 태블릿 / 모바일 모두 구현이 되어있습니다.
 
 ## 2. notice.html
+
+![notice](https://github.com/user-attachments/assets/aee22889-ba63-4755-acf7-cc08a43a32c9)
 
 <a href ="https://www.innovation.go.kr/ucms/main/contents.do?menuNo=300095" target="_blank"> 원본사이트</a>
 <br>
@@ -42,6 +49,7 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 
 ## 3. board.html
 
+![board](https://github.com/user-attachments/assets/11f62934-76f9-45af-8d27-d5c12053e7ff)
 
 <a href="https://www.innovation.go.kr/ucms/bbs/B0000074/list.do?searchType=1&sort=02&searchCnd=1&pageIndex=1&menuNo=300210&searchWrd=" target="_blank">원본사이트</a>
 <br>
