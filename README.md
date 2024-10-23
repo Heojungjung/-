@@ -27,6 +27,9 @@
 <h4>작업 기간 : 24.08.07 ~ 24.10.23 </h4>
 <h4>작업 영역 : Figma 와이어프레임 및 기능정의서 제작 | Figma 페이지 소개 ppt 제작 | HTML/CSS/JS 페이지 퍼블리싱(3개 페이지)</h4>
 
+<br>
+<br>
+
 ## 1. index.html
 
 ![main](https://github.com/user-attachments/assets/8f66f21c-a548-4efa-b2cd-c4235d214b62)
@@ -35,6 +38,8 @@
 footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이지 관련 기능을 제외하곤 기능까지 구현이 되어있습니다.
 
 반응형 사이즈 태블릿 / 모바일 모두 구현이 되어있습니다.
+<br>
+<br>
 
 ## 2. notice.html
 
@@ -45,7 +50,8 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 정책 설명관련으로 주로 공공기관 사이트에 있는 기관 소개 페이지를 염두에 두고 작업한 페이지입니다.
 크게 기능적인 부분은 없는 페이지입니다.
 반응형 사이즈 태블릿 / 모바일 모두 구현이 되어있습니다.
-
+<br>
+<br>
 
 ## 3. board.html
 
@@ -57,4 +63,46 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 정렬기능은 기능 구현을 하지 못했습니다.
 반응형 사이즈 태블릿 / 모바일 모두 구현이 되어있습니다.
 
+<br>
+<br>
 
+## 4. 페이지간 이동
+
+
+![image](https://github.com/user-attachments/assets/df8056be-21b3-4c99-b756-e56257ec3dac)
+<br>
+<h4> index.html에서 notice.html과 board.html로 이동 하려면 상단 nav의 메뉴에서
+'정부혁신' 영역을 이용하면 notice.html로 이동을 할 수 있습니다. </h4>
+
+<br>
+
+![image](https://github.com/user-attachments/assets/7f052a5a-6ff3-4f41-98a0-b2ec05e4f008)
+
+<br>
+<h4> '자료실'영역의 '최초·최고 사례' 영역을 이용하면 board.html로 이동 할 수 있습니다.
+각 페이지에서 로고를 클릭하면 index.html로 다시 돌아옵니다. </h4>
+
+
+<br>
+
+![image](https://github.com/user-attachments/assets/9d13645a-9d08-4d7d-aa25-73bb178f4622)
+
+![image](https://github.com/user-attachments/assets/0d7d0d38-0b20-4bf7-8f91-abb49b3ebcb7)
+
+
+<br>
+
+<h4>모바일 영역에서도 동일하게 햄버거 메뉴를 클릭 시 나타나는 메뉴를 통해 이동이 가능합니다. </h4>
+
+
+
+<br>
+<br>
+
+
+![image](https://github.com/user-attachments/assets/1bb78448-5a33-455c-950d-4b0d48b4a3e1)
+
+<br>
+<h4>
+index.html의 '자주찾는 서비스'탭의 '혁신비전' 아이콘을 클릭 시에 notice페이지의 비전 영역으로 바로 이동합니다.
+</h4>
