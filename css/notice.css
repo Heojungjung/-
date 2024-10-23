@@ -13,7 +13,7 @@
     height: max-content;
     overflow: hidden;    
     margin-top: 180px;
-    background-image: url(/images/notice_bg_desktop.png);
+    background-image: url(../images/notice_bg_desktop.png);
     background-size:cover;
     background-repeat: no-repeat;
     padding: 70px 200px;
