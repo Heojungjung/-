@@ -1,0 +1,14 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_393_3379" fill="white">
+<path d="M14 2H25C25.5523 2 26 2.44772 26 3V25C26 25.5523 25.5523 26 25 26H14V2Z"/>
+</mask>
+<path d="M14 0.6H25C26.3255 0.6 27.4 1.67452 27.4 3L24.6 3.4H14V0.6ZM27.4 25C27.4 26.3255 26.3255 27.4 25 27.4H14V24.6H24.6L27.4 25ZM14 26V2V26ZM25 0.6C26.3255 0.6 27.4 1.67452 27.4 3V25C27.4 26.3255 26.3255 27.4 25 27.4L24.6 24.6V3.4L25 0.6Z" fill="#2D2D2D" mask="url(#path-1-inside-1_393_3379)"/>
+<path d="M14 0.6H25C26.3255 0.6 27.4 1.67452 27.4 3L24.6 3.4H14V0.6ZM27.4 25C27.4 26.3255 26.3255 27.4 25 27.4H14V24.6H24.6L27.4 25ZM14 26V2V26ZM25 0.6C26.3255 0.6 27.4 1.67452 27.4 3V25C27.4 26.3255 26.3255 27.4 25 27.4L24.6 24.6V3.4L25 0.6Z" fill="black" fill-opacity="0.2" mask="url(#path-1-inside-1_393_3379)"/>
+<path d="M14 0.6H25C26.3255 0.6 27.4 1.67452 27.4 3L24.6 3.4H14V0.6ZM27.4 25C27.4 26.3255 26.3255 27.4 25 27.4H14V24.6H24.6L27.4 25ZM14 26V2V26ZM25 0.6C26.3255 0.6 27.4 1.67452 27.4 3V25C27.4 26.3255 26.3255 27.4 25 27.4L24.6 24.6V3.4L25 0.6Z" fill="black" fill-opacity="0.2" mask="url(#path-1-inside-1_393_3379)"/>
+<path d="M2 14H20" stroke="#2D2D2D" stroke-width="1.4"/>
+<path d="M2 14H20" stroke="black" stroke-opacity="0.2" stroke-width="1.4"/>
+<path d="M2 14H20" stroke="black" stroke-opacity="0.2" stroke-width="1.4"/>
+<path d="M14.75 8.75L20 14L14.75 19.25" stroke="#2D2D2D" stroke-width="1.2"/>
+<path d="M14.75 8.75L20 14L14.75 19.25" stroke="black" stroke-opacity="0.2" stroke-width="1.2"/>
+<path d="M14.75 8.75L20 14L14.75 19.25" stroke="black" stroke-opacity="0.2" stroke-width="1.2"/>
+</svg>
