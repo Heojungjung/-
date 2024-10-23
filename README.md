@@ -21,7 +21,7 @@
 # 프로젝트 설명
 
 <img src ="https://www.innovation.go.kr/static/assets_rn/images/icon/new_logo_KR.png" width="250px">
-<h3>공공기관 웹사이트 리 디자인 작업으로 <a href="https://www.innovation.go.kr/ucms/main/main.do" target="_blank">'혁신24'</a> 사이트를 리디자인 했습니다.</h3>
+<h3>공공기관 웹사이트 리디자인 작업으로 <a href="https://www.innovation.go.kr/ucms/main/main.do" target="_blank">'혁신24'</a> 사이트를 리디자인 했습니다.</h3>
 <hr>
 <h4>메인페이지인 index.html / 페이지 설명및 정책관련 페이지인 notice.html / 게시판 형식 페이지인 board.html 총 3개의 사이트로 구현되어있습니다. </h4>
 <h4>페이지 디자인을 위한 피그마 작업물은 <a href="https://www.figma.com/design/EajVe9m9p8OPz1LYpGKV1h/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%ED%97%88%EC%A0%95?node-id=65-46&t=SN401fvkuxwzNyIq-1" target="_blank">여기</a> 에서 확인 가능합니다. </h4>
@@ -108,3 +108,12 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 <h4>
 index.html의 '자주찾는 서비스'탭의 '혁신비전' 아이콘을 클릭 시에 notice페이지의 비전 영역으로 바로 이동합니다.
 </h4>
+
+<hr>
+
+# 사용/참고 자료
+
+<h3>폰트 사용 :  <a href="https://github.com/orioncactus/pretendard" target="_blank"> Pretendard GOV </a> </h3>
+<h3>폰트 사용 :  <a href="https://noonnu.cc/font_page/41" target="_blank"> 나눔명조 </a> </h3>
+
+<h3>디자인,레이아웃 참고 : <a href="https://uiux.egovframe.go.kr/guide/index.html" target="_blank"> KRDS 가이드라인 </a> </h3>
