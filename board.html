@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>혁신24</title>
+    <link rel="icon" href="images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/board.css">
+    <link rel="stylesheet" href="css/media_board.css">
+    <link rel="stylesheet" href="css/media_modal.css">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="header_top">
+            <div class="top_inner">
+                <img src="images/flag.png" class="top_flag" alt="">
+                <span class="nuri_text">이 누리집은 대한민국 공식 전자정부 누리집입니다.</span>
+            </div>
+        </div>
+        <div class="header_in">
+            <div class="inner">
+                <div class="head_main">
+                    <a href="index.html" class="logo_area">
+                        <img src="images/header_logo.png" alt="">
+                    </a>
+                    <div class="right_area">
+                        <button class="header_icon" id="searchbtn">
+                            <img src="images/header_icon_search.png" alt=""> 통합검색
+                        </button>
+                        <button class="header_icon" id="loginbtn">
+                            <img src="images/header_icon_login.png" alt=""> 로그인
+                        </button>
+                        <button class="header_icon">
+                            <img src="images/header_icon_join.png" alt=""> 회원가입
+                        </button>
+                    </div>
+                    <div class="right_area_media">
+                        <img src="images/media_menu.svg" alt="" id="media-icon">
+                    </div>
+                </div>
+            </div>
+            <div class="header_gnb">
+                <ul class="gnb">
+                    <li class="nav_li">
+                        <a href="notice.html#notice_main" class="nav_li_text">정부혁신 <img src="images/arrowbottom.png" alt=""></a>                    
+                        <div class="w_gnb_wrap_open">
+                            <div class="inner">
+                                <div class="w_gnb_menu">
+                                    <div class="menu_wrap">
+                                        <ul class="menu_ul">
+                                            <li class="menu_li">
+                                                <h4 class="sub_left_title">정부혁신</h4>
+                                                <p class="sub_left_text">혁신24 기관 및 정부 정책에 대해 알려드립니다.</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sub_menu_wrap">
+                                            <div class="submenu_in">
+                                                <h3 class="sub_title">정부혁신</h3>
+                                                <ul class="sub_ul">
+                                                    <a href="notice.html#notice_main">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">비전 및 추진계획</h4>
+                                                        <p class="sub_inner_text">혁신 비전 및 계획에 관한 정보를 볼 수 있습니다.</p>
+                                                    </li>
+                                                    </a>
+                                                    <a href="notice.html#goals">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">기관별 실행계획</h4>
+                                                        <p class="sub_inner_text">기관별 실행계획 및 진행 상황 확인이 가능합니다.</p>
+                                                    </li>
+                                                    </a>
+                                                    <a href="notice.html#plan">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">중점 과제</h4>
+                                                        <p class="sub_inner_text">현정부의 혁신 중점 과제를 확인 가능합니다.</p>
+                                                    </li>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#" class="nav_li_text">공지사항 <img src="images/arrowbottom.png" alt=""></a>                    
+                        <div class="w_gnb_wrap_open">
+                            <div class="inner">
+                                <div class="w_gnb_menu">
+                                    <div class="menu_wrap">
+                                        <ul class="menu_ul">
+                                            <li class="menu_li">
+                                                <h4 class="sub_left_title">공지사항</h4>
+                                                <p class="sub_left_text">혁신24의 공지사항 · 이벤트를 확인 가능합니다.</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sub_menu_wrap">
+                                            <div class="submenu_in">
+                                                <h3 class="sub_title">공지사항</h3>
+                                                <ul class="sub_ul">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">공지·안내</h4>
+                                                        <p class="sub_inner_text">사이트 공지사항 및 안내를 확인 가능합니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">이벤트</h4>
+                                                        <p class="sub_inner_text">사이트 및 SNS 이벤트 정보 확인이 가능합니다.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#" class="nav_li_text">혁신활동·참여 <img src="images/arrowbottom.png" alt=""></a>                    
+                        <div class="w_gnb_wrap_open">
+                            <div class="inner">
+                                <div class="w_gnb_menu">
+                                    <div class="menu_wrap">
+                                        <ul class="menu_ul">
+                                            <li class="menu_li" id="add_li">
+                                                <h4 class="sub_left_title" >혁신 활동</h4>
+                                                <p class="sub_left_text">정부에서 진행하는 혁신 활동</p>
+                                            </li>
+                                            <li class="menu_li" id="join_li">
+                                                <h4 class="sub_left_title" >국민 참여</h4>
+                                                <p class="sub_left_text">국민이 직접 참여하는 혁신 활동</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sub_menu_wrap">
+                                            <div class="submenu_in">
+                                                <h3 class="sub_title">혁신활동·참여</h3>
+                                                <ul class="sub_ul">
+                                                    <li class="sub_li" id="add_sub1">
+                                                        <h4 class="sub_inner_title">현장 활동</h4>
+                                                        <p class="sub_inner_text">메뉴명과 설명</p>
+                                                    </li>
+                                                    <li class="sub_li" id="add_sub2">
+                                                        <h4 class="sub_inner_title">혁신 릴레이</h4>
+                                                        <p class="sub_inner_text">메뉴명과 설명</p>
+                                                    </li>
+                                                    <li class="sub_li" id="join_sub1">
+                                                        <h4 class="sub_inner_title">정부혁신 어벤져스</h4>
+                                                        <p class="sub_inner_text">메뉴명과 설명</p>
+                                                    </li>
+                                                    <li class="sub_li" id="join_sub2">
+                                                        <h4 class="sub_inner_title">국민 참여</h4>
+                                                        <p class="sub_inner_text">메뉴명과 설명</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <script>
+                                            let join_li = document.getElementById("join_li");
+                                            let add_li = document.getElementById("add_li");
+                                            let join_sub1 = document.getElementById("join_sub1");
+                                            let join_sub2 = document.getElementById("join_sub2");
+                                            let add_sub1 = document.getElementById("add_sub1");
+                                            let add_sub2 = document.getElementById("add_sub2");
+
+                                            join_sub1.style.display = "none"; 
+                                            join_sub2.style.display = "none"; 
+
+
+                                            join_li.addEventListener('click',function(){
+                                                join_sub1.style.display="block";
+                                                join_sub2.style.display="block";
+                                                add_sub1.style.display="none";
+                                                add_sub2.style.display="none";
+                                            })
+
+                                            add_li.addEventListener('click',function(){
+                                                join_sub1.style.display="none";
+                                                join_sub2.style.display="none";
+                                                add_sub1.style.display="block";
+                                                add_sub2.style.display="block";
+                                            })
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#" class="nav_li_text">정책정보 <img src="images/arrowbottom.png" alt=""></a>                    
+                        <div class="w_gnb_wrap_open">
+                            <div class="inner">
+                                <div class="w_gnb_menu">
+                                    <div class="menu_wrap">
+                                        <ul class="menu_ul">
+                                            <li class="menu_li">
+                                                <h4 class="sub_left_title">정책정보</h4>
+                                                <p class="sub_left_text">정부 주도 정책 확인 · 열람</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sub_menu_wrap">
+                                            <div class="submenu_in">
+                                                <h3 class="sub_title">정책정보</h3>
+                                                <ul class="sub_ul">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">국정과제</h4>
+                                                        <p class="sub_inner_text">현 정부 및 지난 정부의 국정 과제를 확인 가능합니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">정책 추진 방향</h4>
+                                                        <p class="sub_inner_text">현 정부의 정책 추진 방향을 확인 가능합니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">정책소개</h4>
+                                                        <p class="sub_inner_text">정부 정책에 관한 정보를 확인 할 수 있습니다.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#" class="nav_li_text">기관소개 <img src="images/arrowbottom.png" alt=""></a>                    
+                        <div class="w_gnb_wrap_open">
+                            <div class="inner">
+                                <div class="w_gnb_menu">
+                                    <div class="menu_wrap">
+                                        <ul class="menu_ul">
+                                            <li class="menu_li">
+                                                <h4 class="sub_left_title">기관소개</h4>
+                                                <p class="sub_left_text">혁신24 기관에 관한 설명</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sub_menu_wrap">
+                                            <div class="submenu_in">
+                                                <h3 class="sub_title">기관소개</h3>
+                                                <ul class="sub_ul">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">혁신24는?</h4>
+                                                        <p class="sub_inner_text">혁신24 사이트에 관해 알려드립니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">조직안내</h4>
+                                                        <p class="sub_inner_text">혁신24 조직 및 구조에 관해 알려드립니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">찾아오시는 길</h4>
+                                                        <p class="sub_inner_text">혁신24의 행안부 위치에 관해 알려드립니다.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#" class="nav_li_text">자료실 <img src="images/arrowbottom.png" alt=""></a>                    
+                        <div class="w_gnb_wrap_open">
+                            <div class="inner">
+                                <div class="w_gnb_menu">
+                                    <div class="menu_wrap">
+                                        <ul class="menu_ul">
+                                            <li class="menu_li">
+                                                <h4 class="sub_left_title">자료실</h4>
+                                                <p class="sub_left_text">다양한 혁신 관련 자료를 열람 가능합니다.</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sub_menu_wrap">
+                                            <div class="submenu_in">
+                                                <h3 class="sub_title">자료실</h3>
+                                                <ul class="sub_ul">
+                                                    <a href="board.html">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">최초·최고사례</h4>
+                                                        <p class="sub_inner_text">각종 혁신 사례 열람이 가능합니다.</p>                                                
+                                                    </li>
+                                                    </a>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">이달의 추천 공공서비스</h4>
+                                                        <p class="sub_inner_text">각 정부기관에서 추천하는 공공서비스</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">우수사례</h4>
+                                                        <p class="sub_inner_text">우수한 혁신 사례 열람이 가능합니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">경진대회 수상작</h4>
+                                                        <p class="sub_inner_text">역대 경진대회 수상작 열람이 가능합니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">정책자료</h4>
+                                                        <p class="sub_inner_text">역대 정책자료 열람이 가능합니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">홍보자료</h4>
+                                                        <p class="sub_inner_text">다양한 정부혁신 홍보자료</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- modal_tool -->        
+    <div class="modal_on">
+    </div>
+    <div class="modal_on_media">
+    </div>
+    <div class="modal">
+        <div class="modal_search">
+            <div class="modal_header">
+            <h2>검색하기 
+            </h2>
+            <div class="close_icon">
+            <img src="images/close_icon.svg" alt="">
+            </div>
+        </div>
+            <input type="search" class="search_box" placeholder="검색어를 입력해주세요.">
+            <div class="search_icon">
+                <h4>검색<img src="images/header_icon_search.png" alt=""></h4>
+            </div>
+            <h5 class="recently_search">최근 검색어 | <img src="images/reset.svg" alt="" class="recen_reset"> </h5>
+        </div>
+        <div class="search_trend">
+            <div class="left_section">
+                <h3>인기검색어</h3>
+                <ol class="search_list">
+                    <li>1. 탄소중립 정책</li>
+                    <li>2. 디지털 전환 지원</li>
+                    <li>3. 중소기업 지원 프로그램</li>
+                    <li>4. 공공 데이터 개방</li>
+                    <li>5. 사회적 가치 실현</li>
+                    <li>6. 스마트시티 추진 현황</li>
+                    <li>7. 정부 혁신 과제</li>
+                    <li>8. 청년 일자리 창출</li>
+                    <li>9. 재생에너지 확대 계획</li>
+                    <li>10. 공공 서비스 혁신</li>
+                </ol>
+            </div>
+            <div class="right_section">
+                <h3>추천검색어</h3>
+                <ol class="search_list">
+                    <li>1. ESG 경영 지원</li>
+                    <li>2. 정부 AI 활용 사례
+                    </li>
+                    <li>3. 중소기업 지원 프로그램</li>
+                    <li>4. 스마트 농업 지원
+                    </li>
+                    <li>5. 공공기관 디지털 혁신
+                    </li>
+                    <li>6. 스마트시티 추진 현황</li>
+                    <li>7. 비대면 서비스 확산</li>
+                    <li>8. 청년 일자리 창출</li>
+                    <li>9. 지속 가능한 발전 목표
+                    </li>
+                    <li>10. 창업 지원 프로그램
+                    </li>
+                </ol>
+            </div>        </div>
+    </div>
+    <div class="login_modal">
+        <div class="close_icon2">
+            <h4>로그인</h4>
+            <img src="images/close_icon.svg" alt="" id="close_2">  
+        </div>
+        <div class="login_area">  
+        <div class="id_login">
+            <div class="text_block" id="id_login_block">
+                <h2>아이디 로그인</h2>
+            </div>
+        </div>
+        <div class="sns_login">
+            <div class="text_block" id="sns_login_block">
+                <h2>SNS 로그인</h2>
+            </div>
+        </div>
+    </div>
+       <div class="login_data" id="login_id">
+        <h5>이메일 아이디를 사용하는 회원 여러분의 로그인 절차입니다. (일반 회원가입)
+        </h5>
+        <input type="login" class="login_login" placeholder="아이디를 입력해주세요.">
+        <input type="password" class="login_password" placeholder="비밀번호를 입력해주세요.">
+        <div class="remember_box">
+        <input type="checkbox" class="login_checkbox" id="remember"><label for="remember" class="remember_text">아이디 기억</label>
+        </div>
+        <div class="login_box">로그인</div>
+        <div class="login_sub">
+            <h4>아이디 찾기</h4>
+            <h4>비밀번호 찾기</h4>
+            <h4>회원가입</h4>
+        </div>
+    </div>
+       <div class="login_data" id="sns_id">
+        <h5>SNS 계정으로 가입하신 회원 여러분의 로그인 절차입니다.
+            <br>
+            <strong>혁신24 공직자 회원은 반드시 "아이디 로그인"</strong>으로 로그인해 주시기 바랍니다.
+        </h5>
+        <div class="sns_login_box">
+            <div class="sns_btn"><img src="images/sns_login1.svg" alt="">
+                <h4>
+                    페이스북 계정으로 로그인
+                </h4>
+            </div>
+            <div class="sns_btn" id="kakao_id"><img src="images/sns_login2.svg" alt="">
+                <h4>
+                    카카오톡 계정으로 로그인
+                </h4></div>
+            <div class="sns_btn" id="naver_id"><img src="images/sns_login3.svg" alt="">
+                <h4>
+                    네이버 계정으로 로그인
+                </h4></div>
+        </div>
+    </div>
+    </div>
+    <div class="media_modal_tablet">
+        <div class="modal_top">
+            <div class="m_t_btn" id="tablet_search">
+            <img src="images/modal_media_search.svg" alt="">
+            통합검색
+            </div>
+            <div class="gapgap"></div>
+            <div class="m_t_btn" id="tablet_login">
+            <img src="images/modal_media_login.svg" alt="">
+            로그인
+            </div>
+            <div class="gapgap"></div>
+            <div class="m_t_btn">
+            <img src="images/modal_media_join.svg" alt="">
+            회원가입
+            </div>
+        </div>
+        <div class="tablet_search_body">
+            <input type="search" class="search_box" placeholder="검색어를 입력해주세요.">
+            <div class="search_icon">
+                <h4>검색<img src="images/header_icon_search.png" alt=""></h4>
+            </div>        </div>
+       <div class="media_modal_accordion">
+        <div class="acco">
+            <div class="acco_head">정부혁신 <img src="images/arrowbottom.png" alt="" class="acco_arrow"></div>
+                <div class="acco_inner">
+                    <div class="acco_sub">
+                        <a href="notice.html#notice_main">
+                        비전 및 추진계획</a></div>
+                    <div class="acco_sub">
+                        <a href="notice.html#plan">
+                            중점과제
+                        </a>
+                    </div>
+                    <div class="acco_sub">
+                        <a href="notice.html#goals">
+                        기관별 실행계획
+                    </a>
+                    </div>
+                </div>
+        </div>
+        <div class="acco">
+            <div class="acco_head">공지사항 <img src="images/arrowbottom.png" alt="" class="acco_arrow"></div>
+                <div class="acco_inner">
+                    <div class="acco_sub">공지·안내</div>
+                    <div class="acco_sub">이벤트</div>
+                </div>
+        </div>
+        <div class="acco">
+            <div class="acco_head">혁신활동·참여 <img src="images/arrowbottom.png" alt="" class="acco_arrow"></div>
+                <div class="acco_inner">
+                    <div class="acco_sub">현장 활동</div>
+                    <div class="acco_sub">혁신 릴레이</div>
+                    <div class="acco_sub">정부혁신 어벤져스</div>
+                    <div class="acco_sub">국민 참여</div>
+                </div>
+        </div>
+        <div class="acco">
+            <div class="acco_head">정책정보 <img src="images/arrowbottom.png" alt="" class="acco_arrow"></div>
+                <div class="acco_inner">
+                    <div class="acco_sub">국정 과제</div>
+                    <div class="acco_sub">정책 추진 방향</div>
+                    <div class="acco_sub">정책 소개</div>
+                </div>
+        </div>
+        <div class="acco">
+            <div class="acco_head">기관소개 <img src="images/arrowbottom.png" alt="" class="acco_arrow"></div>
+                <div class="acco_inner">
+                    <div class="acco_sub">혁신24는?</div>
+                    <div class="acco_sub">조직안내</div>
+                    <div class="acco_sub">찾아오시는 길</div>
+                </div>
+        </div>
+        <div class="acco">
+            <div class="acco_head">자료실 <img src="images/arrowbottom.png" alt="" class="acco_arrow"></div>
+                <div class="acco_inner">
+                    <div class="acco_sub">
+                        <a href="board.html">
+                            최초·최고사례
+                        </a></div>
+                    <div class="acco_sub">이달의 추천 공공서비스</div>
+                    <div class="acco_sub">우수사례</div>
+                    <div class="acco_sub">경진대회 수상작</div>
+                    <div class="acco_sub">정책자료</div>
+                    <div class="acco_sub">홍보자료</div>
+                </div>
+        </div>
+       </div>
+       <script>
+        let acco_head = document.querySelectorAll(".acco_head");
+        let acco_inner = document.querySelectorAll(".acco_inner");
+        let acco_arrow = document.querySelectorAll(".acco_arrow");
+            acco_head.forEach((head, index) => {
+            head.addEventListener('click', function(){
+                if (acco_inner[index].classList.contains('active')) {
+                    acco_inner[index].classList.remove('active');
+                    acco_arrow[index].style.transform  = "rotate(0deg)";
+                } else {
+                    acco_inner[index].classList.add('active');
+                    acco_arrow[index].style.transform  = "rotate(180deg)";
+                }
+            });    
+        })
+       </script>
+    </div>
+    <script>
+        let id_login = document.querySelector('.id_login');
+        let sns_login = document.querySelector('.sns_login');
+        let id_login_block = document.getElementById('id_login_block');
+        let sns_login_block = document.getElementById('sns_login_block');
+        let text_block = document.getElementsByClassName('text_block');
+        let login_data = document.getElementsByClassName('login_data')
+        text_block[0].classList.add("active");
+        login_data[0].classList.add("active");
+
+        id_login.addEventListener('click', function() {
+                text_block[0].classList.add("active");
+                text_block[1].classList.remove("active");
+                login_data[0].classList.add("active");
+                login_data[1].classList.remove("active");
+
+         });
+        sns_login.addEventListener('click', function() {
+                text_block[0].classList.remove("active"); 
+                text_block[1].classList.add("active"); 
+                login_data[0].classList.remove("active");
+                login_data[1].classList.add("active");
+         });
+        
+    </script>
+    <script>
+        let searchbtn = document.getElementById("searchbtn");
+        let modalwindow = document.querySelector(".modal");
+        let modalwindow_tablet = document.querySelector(".media_modal_tablet");
+        let modalback = document.querySelector(".modal_on");
+        let modalback_media = document.querySelector(".modal_on_media");
+        let closebtn = document.querySelector(".close_icon");
+        let closebtn2 = document.getElementById("close_2");
+        let loginbtn = document.getElementById("loginbtn");
+        let login = document.querySelector(".login_modal");
+
+        searchbtn.addEventListener('click',function(){
+            modalwindow.classList.add('active');
+            modalback.classList.add('active');
+        })
+
+        loginbtn.addEventListener('click',function(){
+            login.classList.add('active');
+            modalback.classList.add('active');
+        })
+
+        closebtn.addEventListener('click',function(){
+            modalwindow.classList.remove('active');
+            modalback.classList.remove('active');
+        })
+        closebtn2.addEventListener('click',function(){
+            login.classList.remove('active');
+            modalback.classList.remove('active');
+        })
+
+        // 반응형 모달
+
+        let mediaModal = document.querySelector(".right_area_media");
+        let tablet_login = document.getElementById("tablet_login");
+        let tablet_search = document.getElementById("tablet_search");
+        let tablet_search_body = document.querySelector(".tablet_search_body");
+
+        mediaModal.addEventListener('click',function(){
+
+            if (modalback_media.classList.contains('active')) 
+            {
+                modalwindow_tablet.classList.remove('active');
+                modalback_media.classList.remove('active');
+            }else{
+                modalwindow_tablet.classList.add('active');
+                modalback_media.classList.add('active');
+            }
+        })
+
+        tablet_login.addEventListener('click',function(){
+            login.classList.add('active');
+        })
+
+        tablet_search.addEventListener('click',function(){
+            if (tablet_search_body.classList.contains('active'))
+            {
+                tablet_search_body.classList.remove('active');
+            }
+            else{
+                tablet_search_body.classList.add('active');
+            }
+        })
+        document.querySelector('.right_area_media').addEventListener('click', function() {
+        var imgElement = document.getElementById('media-icon');
+        
+        // 현재 이미지 경로가 media_menu.svg라면 close_icon.svg로 변경
+        if (imgElement.src.includes('media_menu.svg')) {
+            imgElement.src = 'images/close_icon.svg';
+        } else {
+            // 이미 close_icon.svg라면 다시 media_menu.svg로 변경
+            imgElement.src = 'images/media_menu.svg';
+        }
+    });
+
+    </script>
+    <!-- main -->
+    <div class="main_board">
+        <div class="board_title">
+            <img src="images/board_header_title.png" alt="">
+            <div class="notice_breadcrumb">
+                <a href="index.html">
+                <img src="images/breadcrumb_home.svg" alt="">홈 > 
+            </a>
+            <span>자료실</span> > <span>최초·최고사례</span>
+            </div>
+            <h4>국민 여러분의 일상을 편안하고 안전하게 바꾼 <span style="color: #E71825;">'최초'의 정부혁신 사례</span>를 찾아 인증하고<br>
+                <span style="color: #1D56BC;">'최고'의 정부혁신 사례</span>를 선정하여 많은 기관에 확산될 수 있도록 하겠습니다.</h4>
+        </div>
+        <div class="board_menu">
+            <div class="menu best"><h2><img src="images/board_menu_best.png" alt=""></h2></div>
+            <div class="menu first"><h2><img src="images/board_menu_first.png" alt=""></h2></div>
+        </div>
+        <div class="board_main">
+            <div class="board_search">
+                <select name="type_select" id="type_select">
+                    <option value="all">전체</option>
+                    <option value="first">최초</option>
+                    <option value="best">최고</option>                
+                </select>
+                <div class="search_box">
+                <input type="search" name="" id="type_search" placeholder="검색어를 입력해주세요.">
+                <button class="search_submit">검색</button>
+            </div>
+            </div>
+            <div class="board_categori">
+                <h4>정렬기준</h4>
+                <li class="active">최신순</li>
+                <li>조회순</li>
+                <li>추천순</li>
+            </div>
+        </div>
+        <div class="board_items first">
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>세계최초</h5>
+                <h5 class="like"> <span>♥</span> 6,071</h5>
+                </div>
+                <div class="item_title">
+                    <h3>원스톱 · 온라인 대환대출 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>온라인·원스톱 대환대출서비스는 국민의 대출로 부담을 
+                        줄이기 위해 금융위원회가 2023년 세계 최초로 도입한 
+                        온라인 금융 서비스입니다.</p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#온라인</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#금융서비스</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>국내최초</h5>
+                <h5 class="like"> <span>♥</span> 1,148</h5>
+                </div>
+                <div class="item_title">
+                    <h3>공공 산후조리원 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p> 서귀포 공공산후조리원은 2013년 3월 설립된 국내 최초 공공산후조리원입니다. 
+                        현재 공공산후조리원은 2024년 5월 기준 전국 20개 지자체에서 운영되고 있으며, 조리원당 매년 200여 명의 산모가 편리하게 이용하고 있습니다.             
+                       .</p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#산후조리원</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#공공시설</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>국내최초</h5>
+                <h5 class="like"> <span>♥</span> 1,377</h5>
+                </div>
+                <div class="item_title">
+                    <h3>공공 자전거 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>공공자전거는 대표적인 친환경 교통수단인 자전거를 시민들이 자유롭게 빌려 탈 수 있는 무인 대여 서비스입니다.
+                        2008년 창원시에서 처음 시작되었으며, 현재는 전국 71개 지자체에서 편리한 교통수단으로 운용되고 있어요. </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#대여서비스</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#교통수단</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>국내최초</h5>
+                <h5 class="like"> <span>♥</span> 1,312</h5>
+                </div>
+                <div class="item_title">
+                    <h3>조상 땅 찾기 서비스 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>조상 땅 찾기 서비스는 돌아가신 지 오래된 조상 또는 헤어진 가족들이 소유했던 토지를 찾아 알려줌으로써 국민의 알권리와 재산권을 보호하는 토지 행정 서비스로, 경상남도가 1993년 최초로 시행했습니다. 
+                        국토교통부 K-Geo플랫폼 홈페이지를 통해 이용할 수 있어요.</p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#온라인</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#국토교통부</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>국내최초</h5>
+                <h5 class="like"> <span>♥</span> 1,315</h5>
+                </div>
+                <div class="item_title">
+                    <h3>어린이보호구역 교통안전 시설물 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>
+                        청주시는 2013년 5월, 국내 최초로 어린이보호구역 내에 노란색 교통신호등을 설치했습니다. 운전자들에게 주의 운전을 유도하고 교통사고를 예방하기 위한 목적이에요.                      
+                        이후 어린이보호구역에서 노란색을 활용한 다양한 정책들이 전국으로 확산돼 이제는 표준모델로 자리잡고 있습니다.</p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#교통안전</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#시설물</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>국내최초</h5>
+                <h5 class="like"> <span>♥</span> 5,296</h5>
+                </div>
+                <div class="item_title">
+                    <h3>남자 공중화장실 기저귀교환대 설치 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>서울시 송파구는 2007년 구청 청사 1층 남자화장실 내 기저귀교환대를 공공기관 최초로 설치하였습니다.
+                        맞벌이 부부가 늘어나고 육아에 대한 관심이 높아지던 시절, 송파구의 혁신은 전국적으로 가족친화적인 화장실이 널리 퍼지는 계기가 되었습니다.</p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#육아</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#공공서비스</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>세계최초</h5>
+                <h5 class="like"> <span>♥</span> 1,975</h5>
+                </div>
+                <div class="item_title">
+                    <h3>인터넷 기반 전자출원 시스템 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p> 특허청은 1999년 세계 최초로 인터넷 기반의 전자출원 시스템을 개통했습니다.
+                        누구나 쉽고 빠르게 이용할 수 있는 온라인 서비스를 개시했습니다.</p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#온라인</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#특허청</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>세계최초</h5>
+                <h5 class="like"> <span>♥</span> 2,207</h5>
+                </div>
+                <div class="item_title">
+                    <h3>점자여권 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>  외교부는 2017년 07월 세계 최초로 점자여권 제도를 시행하였습니다.
+                        해외 여행할 때, 25만 시각장애인 모두가 직접 본인의 여권정보를 확인할 수 있어요!      
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#여권</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#시각장애인</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>국내최초</h5>
+                <h5 class="like"> <span>♥</span> 3,293</h5>
+                </div>
+                <div class="item_title">
+                    <h3>횡단보도 그늘막 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>  서울시 서초구가 설치한 ‘서리풀 원두막’은 2015년에 등장한 국내 최초의 폭염대비 그늘막이면서, 그늘막 분야의 최고로 인정받았습니다.
+                        그늘막은 전국 어디서나 흔하게 볼 수 있는 여름철 인기 시설물이 되었어요!</p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#그늘막</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#교통부</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>국내최초</h5>
+                <h5 class="like"> <span>♥</span> 2,446</h5>
+                </div>
+                <div class="item_title">
+                    <h3>어르신 안부 확인 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>  1994년, 서울 광진구가 전국 최초로 가정방문 음료 배달로 홀몸어르신의 안부를 확인하는 사업을 시작했습니다.
+                        민간과 공공기관이 체계적으로 협력하여 어려운 어르신들을 돌보는 사업의 계기가 됐어요.
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#가정방문</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#돌봄산업</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>국내최초</h5>
+                <h5 class="like"> <span>♥</span> 1,772</h5>
+                </div>
+                <div class="item_title">
+                    <h3>사회적 약자 위치관리 서비스 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>  전남 광양시는 2007년 전국 최초로 위치정보를 활용한 ‘사회적 약자 위치관리 서비스’를 시작했습니다.
+                        치매 어르신이나 발달장애인 등 실종 위험이 높은 가족이 어디 있는지 안심할 수 있게 되었어요.
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#위치관리</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#실종신고</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>국내최초</h5>
+                <h5 class="like"> <span>♥</span> 11,690</h5>
+                </div>
+                <div class="item_title">
+                    <h3>도로 노면 색깔 유도선 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>언제부터인지 차도 위에 그려진 분홍, 초록의 긴 선을 자주 목격하곤 합니다. 이 선의 정식 명칭은 ‘노면 색깔 유도선’입니다. 노면 색깔 유도선은 교차로, 인터체인지, 분기점 등에서 운전자가 주행 방향과 경로를 쉽게 알아보도록 노면(길의 바닥 표면)에 칠하는 유도선입니다.
+                        2011년 05월 03일, 전국에서 처음으로 서해안고속도로 안산 분기점에 ‘노면 색깔 유도선’이 그려졌습니다.</p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#한국도로공사</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#교통안전</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>세계최초</h5>
+                <h5 class="like"> <span>♥</span> 4,880</h5>
+                </div>
+                <div class="item_title">
+                    <h3>긴급차량 우선신호 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>  2020년, 경기 수원시는 국내 최초로 ‘긴급차량 우선신호 시스템’을 도입했습니다.
+                        신호체계로 만드는 모세의 기적, 생명의 골든타임을 지켜요!
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#긴급차량</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#응급·구급</div>
+                </div>
+            </div>
+            <div class="item first">
+                <div class="item_head_first">
+                <h5>세계최초</h5>
+                <h5 class="like"> <span>♥</span> 2,350</h5>
+                </div>
+                <div class="item_title">
+                    <h3>드라이브 스루 선별진료소 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>
+                        경북대학교병원 칠곡분원은 2020년 02월, 세계 최초로 드라이브 스루 선별진료소를 운영하였습니다.                      
+                        놀랍도록 빠르고 안전한 K-방역의 모범사례!</p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#방역</div>
+                    <div class="foot">#세계최초</div>
+                    <div class="foot">#의료</div>
+                </div>
+            </div>
+            <!-- best -->
+        </div>
+        <div class="board_items best">
+            <div class="item best">
+                <div class="item_head_best">
+                <h5>세계최고</h5>
+                <h5 class="like"> <span>♥</span> 7,005</h5>
+                </div>
+                <div class="item_title">
+                    <h3>전자 예방접종 증명서 (COOV) <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>  질병관리청은 2021년 세계 최초로 위변조를 완벽하게 차단한 전자 예방접종 증명서(COOV)를 선보였습니다.
+                        언제든 우리를 두렵게 할 수도 있는 감염병, 이제 COOV로 안전하고 편리하게 접종정보를 사용하실 수 있어요!
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#질병관리청</div>
+                    <div class="foot">#최초</div>
+                    <div class="foot">#블록체인</div>
+                </div>
+            </div>
+            <div class="item best">
+                <div class="item_head_best">
+                <h5>국내최고</h5>
+                <h5 class="like"> <span>♥</span> 14,005</h5>
+                </div>
+                <div class="item_title">
+                    <h3>공공 어린이놀이터 (실외)<img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>  세종시 ‘모두의 놀이터’는 어린이들이 직접 만들고 디자인한 공공 어린이 놀이터입니다. 
+                        어린이의 눈높이에 맞춘 놀이터로 가족이 함께 소통하고 공감하는 새로운 개념의 융복합 공간이에요.    
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#공공놀이터</div>
+                    <div class="foot">#최고</div>
+                    <div class="foot">#어린이</div>
+                </div>
+            </div>
+            <div class="item best">
+                <div class="item_head_best">
+                <h5>국내최고</h5>
+                <h5 class="like"> <span>♥</span> 1,886</h5>
+                </div>
+                <div class="item_title">
+                    <h3>공공 어린이놀이터 (실내)<img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>   경기도 시흥시는 시민의 건강한 삶을 응원하고 다양한 놀이문화를 정착시키기 위해 ‘플레이스타트 시흥’ 프로젝트를 시작했습니다. 
+                        ‘놀이’는 아이가 건강하게 행복하게 자랄 수 있는 가장 좋은 복지라고 하죠. 시흥시는 영아부터 아동, 청소년은 물론 성인과 노년에 이르기까지 모두가 재미난 놀이를 경험할 수 있는 공간을 제공하고 있어요.    
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#공공놀이터</div>
+                    <div class="foot">#최고</div>
+                    <div class="foot">#어린이</div>
+                </div>
+            </div>
+            <div class="item best">
+                <div class="item_head_best">
+                <h5>국내최고</h5>
+                <h5 class="like"> <span>♥</span> 1,886</h5>
+                </div>
+                <div class="item_title">
+                    <h3>공공 산후조리원<img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>   송파산모건강증진센터는 27개의 산모실을 보유한 전국 최대 규모의 공공 산후조리원입니다. 
+                        쾌적한 환경, 다양한 건강증진프로그램, 체계적인 운영으로 산후조리원 서비스 분야에서 전국 최초로 KS서비스 인증을 획득했어요.                                              
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#산후조리원</div>
+                    <div class="foot">#최고</div>
+                    <div class="foot">#공공시설</div>
+                </div>
+            </div>
+            <div class="item best">
+                <div class="item_head_best">
+                <h5>국내최고</h5>
+                <h5 class="like"> <span>♥</span> 1,290</h5>
+                </div>
+                <div class="item_title">
+                    <h3>공공 자전거<img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>  따릉이는 서울특별시가 2010년부터 운영하고 있는 무인 공공자전거 대여 서비스입니다. 서울시의 교통체증과 대기오염, 고유가 문제를 해결하고 시민들의 삶의 질을 높이고자 시작됐어요. 
+                 2023년 한 해 이용 건수는 4,490만 건, 일 평균 12만 건에 달할 정도로 서울시민의 교통수단으로 큰 사랑을 받고 있어요.                                               
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#공공자전거</div>
+                    <div class="foot">#최고</div>
+                    <div class="foot">#따릉이</div>
+                </div>
+            </div>
+            <div class="item best">
+                <div class="item_head_best">
+                <h5>세계최고</h5>
+                <h5 class="like"> <span>♥</span> 1,290</h5>
+                </div>
+                <div class="item_title">
+                    <h3>출입국심사<img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p> 법무부 인천공항출입국‧외국인청이 제공하는 출입국심사 서비스가 2023년 ‘세계 공항 어워즈’에서 해당 분야 최고상을 수상하며 세계 최고라는 명성을 재확인하였습니다.
+                    신속·정확하면서 친절한 출입국심사 경험, 대한민국의 자랑스러운 첫인상입니다!                   
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#인천공항</div>
+                    <div class="foot">#세계최고</div>
+                    <div class="foot">#법무부</div>
+                </div>
+            </div>
+            <div class="item best">
+                <div class="item_head_best">
+                <h5>국내최고</h5>
+                <h5 class="like"> <span>♥</span> 1,205</h5>
+                </div>
+                <div class="item_title">
+                    <h3>보도 설치·관리<img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p> 서울특별시는 2012년부터 본격적으로 보도 설치·관리 정책을 펼치며, 서울을 행복한 보행자의 도시로 만들고자 노력해왔습니다.
+                        그 결과 광역지자체 최고의 보도 설치·관리 시스템을 구축했고, 보도 관련 제도 및 사업에 있어 좋은 본보기가 되고 있습니다.
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#시설관리</div>
+                    <div class="foot">#최고</div>
+                    <div class="foot">#도로교통</div>
+                </div>
+            </div>
+            <div class="item best">
+                <div class="item_head_best">
+                <h5>국내최고</h5>
+                <h5 class="like"> <span>♥</span> 3,333</h5>
+                </div>
+                <div class="item_title">
+                    <h3>쓰레기 종량제 봉투<img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p>  경기도 성남시는 친환경 소재를 적용하고 기능과 디자인을 대폭 개선한 사용자 맞춤형 쓰레기 종량제 봉투로 시민들의 만족도를 높였습니다.
+                        시민의 편리함과 지구의 미래를 함께 생각한 성남시의 기분 좋은 성과입니다!
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#종량제</div>
+                    <div class="foot">#최고</div>
+                    <div class="foot">#친환경</div>
+                </div>
+            </div>
+            <div class="item best">
+                <div class="item_head_best">
+                <h5>국내최고</h5>
+                <h5 class="like"> <span>♥</span> 3,333</h5>
+                </div>
+                <div class="item_title">
+                    <h3>사회적 약자 위치찾기 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p> 경찰청에서는 ‘말로 신고하는 112’에서 ‘보이는 112 신고서비스’를 새롭게 개발하였습니다. 
+                        말하기 어려운 상황에서도 신고자 휴대전화를 통해 현장 상황을 실시간으로 112상황실에 전송하여 신고는 더 정확하게, 출동은 더 빠르게!
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#경찰청</div>
+                    <div class="foot">#최고</div>
+                    <div class="foot">#신고서비스</div>
+                </div>
+            </div>
+            <div class="item best">
+                <div class="item_head_best">
+                <h5>국내최고</h5>
+                <h5 class="like"> <span>♥</span> 1,631</h5>
+                </div>
+                <div class="item_title">
+                    <h3>횡단보도 그늘막 <img src="images/Type=arrow-right.svg" alt=""></h3>
+                </div>
+                <div class="item_info">
+                    <p> 서울 서초구가 설치한 ‘서리풀 원두막’은 2015년에 등장한 국내 최초의 폭염대비 그늘막이면서, 그늘막 분야의 최고로 인정받았습니다.
+                        그늘막은 전국 어디서나 흔하게 볼 수 있는 여름철 인기 시설물이 되었어요!       
+                      </p>
+                </div>
+                <div class="item_foot">
+                    <div class="foot">#횡단보도</div>
+                    <div class="foot">#최고</div>
+                    <div class="foot">#그름막</div>
+                </div>
+            </div>        
+        </div>
+
+        <div class="pagination">
+            <div class="prev_btn">
+                <img src="images/service_button_prev.svg" alt=""> 이전
+            </div>
+              <ol id="numbers">
+            </ol>
+              <div class="next_btn">
+                <img src="images/service_button_next.svg" alt=""> 다음
+              </div>
+            </div>
+            <script src="js/pagenation.js"></script>
+    </div>
+    <!-- footer -->
+    <footer>
+            <div class="footer_top">
+                <div class="f_t_menu">
+                    <a href="https://buly.kr/8ek0iIE" target="_blank">
+                    <div class="f_menu_item">
+                        <h4>홈페이지이용약관</h4>
+                        <img src="images/plus.svg" alt="">
+                    </div>
+                </a>
+                    <a href="https://buly.kr/3NHHHpa" target="_blank">
+                    <div class="f_menu_item">
+                        <h4>개인정보처리방침</h4>
+                        <img src="images/plus.svg" alt="">
+                    </div>
+                    </a>
+                    <div class="f_menu_item">
+                        <h4>국민참여플랫폼</h4>
+                        <img src="images/plus.svg" alt="">
+                    </div>
+                    <div class="f_menu_item">
+                        <h4>혁신관련사이트</h4>
+                        <img src="images/plus.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer_main">
+                <div class="footer_logo">
+                    <img src="images/footer_logo.png" alt="">
+                </div>
+                <div class="footer_menu">
+                <div class="footer_m_left">
+                    <div class="f_address">
+                        <h4>(30112) 세종특별자치시 도움6로 42 (어진동) 572번지 정부세종청사 중앙동 </h4>
+                        <h4>시스템 문의: 044-205-2219(행정안전부), 070-4367-1677(유지관리 업체) <strong>E-mail: innogov@korea.kr</strong></h4>
+                    </div>
+                </div>
+                <div class="footer_m_right">
+                    <div class="f_notice">
+                        <a href="https://buly.kr/8ek0iIE" target="_blank"><h4>이용안내<img src="images/Type=arrow-right.svg" alt=""></h4></a>
+                        <h4>찾아오시는 길 <img src="images/Type=arrow-right.svg" alt=""></h4>
+                    </div>
+                    <div class="f_snsbtn">
+                        <div class="snsbtn"><a href="https://www.youtube.com/@innogov" target="_blank"><img src="images/footer_sns_youtube.png" alt=""></a></div>
+                        <div class="snsbtn"><a href="https://www.facebook.com/innovation.korea" target="_blank"><img src="images/footer_sns_facebook.png" alt=""></a></div>
+                        <div class="snsbtn"><a href="https://pf.kakao.com/_NfKlj" target="_blank"><img src="images/footer_sns_kakao.png" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="footer_b_notice">
+                    <a href="https://buly.kr/3NHHHpa" target="_blank"><h4 class="f_b_n_main">개인정보처리방침</h4></a>
+                    <a href="https://www.mois.go.kr/frt/sub/a08/copyrightPolicy/screen.do" target="_blank"><h4>저작권 정책</h4></a>
+                    <h4 class="copyright">Copyright ⓒ 허정정. All Rights Reserved.</h4>
+                </div>
+                <div class="footer_b_banner">
+                    <h4 class="f_b_inner"><img src="images/footer_bottom_logo.png" alt="">이 누리집은 행정안전부 산하기관 혁신24 공식 전자정부 누리집입니다.</h4>
+                </div>
+            </div>
+            </div>
+    </footer>
+</body>
+</html>

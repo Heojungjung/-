@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>혁신24</title>
+    <link rel="icon" href="images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/media_modal.css">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="header_top">
+            <div class="top_inner">
+                <img src="images/flag.png" class="top_flag" alt="">
+                <span class="nuri_text">이 누리집은 대한민국 공식 전자정부 누리집입니다.</span>
+            </div>
+        </div>
+        <div class="header_in">
+            <div class="inner">
+                <div class="head_main">
+                    <a href="index.html" class="logo_area">
+                        <img src="images/header_logo.png" alt="">
+                    </a>
+                    <div class="right_area">
+                        <button class="header_icon" id="searchbtn">
+                            <img src="images/header_icon_search.png" alt=""> 통합검색
+                        </button>
+                        <button class="header_icon" id="loginbtn">
+                            <img src="images/header_icon_login.png" alt=""> 로그인
+                        </button>
+                        <button class="header_icon">
+                            <img src="images/header_icon_join.png" alt=""> 회원가입
+                        </button>
+                    </div>
+                    <div class="right_area_media">
+                        <img src="images/media_menu.svg" alt="" id="media-icon">
+                    </div>
+                </div>
+            </div>
+            <div class="header_gnb">
+                <ul class="gnb">
+                    <li class="nav_li">
+                        <a href="notice.html#notice_main" class="nav_li_text">정부혁신 <img src="images/arrowbottom.png" alt=""></a>                    
+                        <div class="w_gnb_wrap_open">
+                            <div class="inner">
+                                <div class="w_gnb_menu">
+                                    <div class="menu_wrap">
+                                        <ul class="menu_ul">
+                                            <li class="menu_li">
+                                                <h4 class="sub_left_title">정부혁신</h4>
+                                                <p class="sub_left_text">혁신24 기관 및 정부 정책에 대해 알려드립니다.</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sub_menu_wrap">
+                                            <div class="submenu_in">
+                                                <h3 class="sub_title">정부혁신</h3>
+                                                <ul class="sub_ul">
+                                                    <a href="notice.html#notice_main">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">비전 및 추진계획</h4>
+                                                        <p class="sub_inner_text">혁신 비전 및 계획에 관한 정보를 볼 수 있습니다.</p>
+                                                    </li>
+                                                    </a>
+                                                    <a href="notice.html#goals">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">기관별 실행계획</h4>
+                                                        <p class="sub_inner_text">기관별 실행계획 및 진행 상황 확인이 가능합니다.</p>
+                                                    </li>
+                                                    </a>
+                                                    <a href="notice.html#plan">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">중점 과제</h4>
+                                                        <p class="sub_inner_text">현정부의 혁신 중점 과제를 확인 가능합니다.</p>
+                                                    </li>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#" class="nav_li_text">공지사항 <img src="images/arrowbottom.png" alt=""></a>                    
+                        <div class="w_gnb_wrap_open">
+                            <div class="inner">
+                                <div class="w_gnb_menu">
+                                    <div class="menu_wrap">
+                                        <ul class="menu_ul">
+                                            <li class="menu_li">
+                                                <h4 class="sub_left_title">공지사항</h4>
+                                                <p class="sub_left_text">혁신24의 공지사항 · 이벤트를 확인 가능합니다.</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sub_menu_wrap">
+                                            <div class="submenu_in">
+                                                <h3 class="sub_title">공지사항</h3>
+                                                <ul class="sub_ul">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">공지·안내</h4>
+                                                        <p class="sub_inner_text">사이트 공지사항 및 안내를 확인 가능합니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">이벤트</h4>
+                                                        <p class="sub_inner_text">사이트 및 SNS 이벤트 정보 확인이 가능합니다.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#" class="nav_li_text">혁신활동·참여 <img src="images/arrowbottom.png" alt=""></a>                    
+                        <div class="w_gnb_wrap_open">
+                            <div class="inner">
+                                <div class="w_gnb_menu">
+                                    <div class="menu_wrap">
+                                        <ul class="menu_ul">
+                                            <li class="menu_li" id="add_li">
+                                                <h4 class="sub_left_title" >혁신 활동</h4>
+                                                <p class="sub_left_text">정부에서 진행하는 혁신 활동</p>
+                                            </li>
+                                            <li class="menu_li" id="join_li">
+                                                <h4 class="sub_left_title" >국민 참여</h4>
+                                                <p class="sub_left_text">국민이 직접 참여하는 혁신 활동</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sub_menu_wrap">
+                                            <div class="submenu_in">
+                                                <h3 class="sub_title">혁신활동·참여</h3>
+                                                <ul class="sub_ul">
+                                                    <li class="sub_li" id="add_sub1">
+                                                        <h4 class="sub_inner_title">현장 활동</h4>
+                                                        <p class="sub_inner_text">메뉴명과 설명</p>
+                                                    </li>
+                                                    <li class="sub_li" id="add_sub2">
+                                                        <h4 class="sub_inner_title">혁신 릴레이</h4>
+                                                        <p class="sub_inner_text">메뉴명과 설명</p>
+                                                    </li>
+                                                    <li class="sub_li" id="join_sub1">
+                                                        <h4 class="sub_inner_title">정부혁신 어벤져스</h4>
+                                                        <p class="sub_inner_text">메뉴명과 설명</p>
+                                                    </li>
+                                                    <li class="sub_li" id="join_sub2">
+                                                        <h4 class="sub_inner_title">국민 참여</h4>
+                                                        <p class="sub_inner_text">메뉴명과 설명</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <script>
+                                            let join_li = document.getElementById("join_li");
+                                            let add_li = document.getElementById("add_li");
+                                            let join_sub1 = document.getElementById("join_sub1");
+                                            let join_sub2 = document.getElementById("join_sub2");
+                                            let add_sub1 = document.getElementById("add_sub1");
+                                            let add_sub2 = document.getElementById("add_sub2");
+
+                                            join_sub1.style.display = "none"; 
+                                            join_sub2.style.display = "none"; 
+
+
+                                            join_li.addEventListener('click',function(){
+                                                join_sub1.style.display="block";
+                                                join_sub2.style.display="block";
+                                                add_sub1.style.display="none";
+                                                add_sub2.style.display="none";
+                                            })
+
+                                            add_li.addEventListener('click',function(){
+                                                join_sub1.style.display="none";
+                                                join_sub2.style.display="none";
+                                                add_sub1.style.display="block";
+                                                add_sub2.style.display="block";
+                                            })
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#" class="nav_li_text">정책정보 <img src="images/arrowbottom.png" alt=""></a>                    
+                        <div class="w_gnb_wrap_open">
+                            <div class="inner">
+                                <div class="w_gnb_menu">
+                                    <div class="menu_wrap">
+                                        <ul class="menu_ul">
+                                            <li class="menu_li">
+                                                <h4 class="sub_left_title">정책정보</h4>
+                                                <p class="sub_left_text">정부 주도 정책 확인 · 열람</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sub_menu_wrap">
+                                            <div class="submenu_in">
+                                                <h3 class="sub_title">정책정보</h3>
+                                                <ul class="sub_ul">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">국정과제</h4>
+                                                        <p class="sub_inner_text">현 정부 및 지난 정부의 국정 과제를 확인 가능합니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">정책 추진 방향</h4>
+                                                        <p class="sub_inner_text">현 정부의 정책 추진 방향을 확인 가능합니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">정책소개</h4>
+                                                        <p class="sub_inner_text">정부 정책에 관한 정보를 확인 할 수 있습니다.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#" class="nav_li_text">기관소개 <img src="images/arrowbottom.png" alt=""></a>                    
+                        <div class="w_gnb_wrap_open">
+                            <div class="inner">
+                                <div class="w_gnb_menu">
+                                    <div class="menu_wrap">
+                                        <ul class="menu_ul">
+                                            <li class="menu_li">
+                                                <h4 class="sub_left_title">기관소개</h4>
+                                                <p class="sub_left_text">혁신24 기관에 관한 설명</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sub_menu_wrap">
+                                            <div class="submenu_in">
+                                                <h3 class="sub_title">기관소개</h3>
+                                                <ul class="sub_ul">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">혁신24는?</h4>
+                                                        <p class="sub_inner_text">혁신24 사이트에 관해 알려드립니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">조직안내</h4>
+                                                        <p class="sub_inner_text">혁신24 조직 및 구조에 관해 알려드립니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">찾아오시는 길</h4>
+                                                        <p class="sub_inner_text">혁신24의 행안부 위치에 관해 알려드립니다.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#" class="nav_li_text">자료실 <img src="images/arrowbottom.png" alt=""></a>                    
+                        <div class="w_gnb_wrap_open">
+                            <div class="inner">
+                                <div class="w_gnb_menu">
+                                    <div class="menu_wrap">
+                                        <ul class="menu_ul">
+                                            <li class="menu_li">
+                                                <h4 class="sub_left_title">자료실</h4>
+                                                <p class="sub_left_text">다양한 혁신 관련 자료를 열람 가능합니다.</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sub_menu_wrap">
+                                            <div class="submenu_in">
+                                                <h3 class="sub_title">자료실</h3>
+                                                <ul class="sub_ul">
+                                                    <a href="board.html">
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">최초·최고사례</h4>
+                                                        <p class="sub_inner_text">각종 혁신 사례 열람이 가능합니다.</p>                                                
+                                                    </li>
+                                                    </a>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">이달의 추천 공공서비스</h4>
+                                                        <p class="sub_inner_text">각 정부기관에서 추천하는 공공서비스</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">우수사례</h4>
+                                                        <p class="sub_inner_text">우수한 혁신 사례 열람이 가능합니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">경진대회 수상작</h4>
+                                                        <p class="sub_inner_text">역대 경진대회 수상작 열람이 가능합니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">정책자료</h4>
+                                                        <p class="sub_inner_text">역대 정책자료 열람이 가능합니다.</p>
+                                                    </li>
+                                                    <li class="sub_li">
+                                                        <h4 class="sub_inner_title">홍보자료</h4>
+                                                        <p class="sub_inner_text">다양한 정부혁신 홍보자료</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- modal_tool -->        
+    <div class="modal_on">
+    </div>
+    <div class="modal_on_media">
+    </div>
+    <div class="modal">
+        <div class="modal_search">
+            <div class="modal_header">
+            <h2>검색하기 
+            </h2>
+            <div class="close_icon">
+            <img src="images/close_icon.svg" alt="">
+            </div>
+        </div>
+            <input type="search" class="search_box" placeholder="검색어를 입력해주세요.">
+            <div class="search_icon">
+                <h4>검색<img src="images/header_icon_search.png" alt=""></h4>
+            </div>
+            <h5 class="recently_search">최근 검색어 | <img src="images/reset.svg" alt="" class="recen_reset"> </h5>
+        </div>
+        <div class="search_trend">
+            <div class="left_section">
+                <h3>인기검색어</h3>
+                <ol class="search_list">
+                    <li>1. 탄소중립 정책</li>
+                    <li>2. 디지털 전환 지원</li>
+                    <li>3. 중소기업 지원 프로그램</li>
+                    <li>4. 공공 데이터 개방</li>
+                    <li>5. 사회적 가치 실현</li>
+                    <li>6. 스마트시티 추진 현황</li>
+                    <li>7. 정부 혁신 과제</li>
+                    <li>8. 청년 일자리 창출</li>
+                    <li>9. 재생에너지 확대 계획</li>
+                    <li>10. 공공 서비스 혁신</li>
+                </ol>
+            </div>
+            <div class="right_section">
+                <h3>추천검색어</h3>
+                <ol class="search_list">
+                    <li>1. ESG 경영 지원</li>
+                    <li>2. 정부 AI 활용 사례
+                    </li>
+                    <li>3. 중소기업 지원 프로그램</li>
+                    <li>4. 스마트 농업 지원
+                    </li>
+                    <li>5. 공공기관 디지털 혁신
+                    </li>
+                    <li>6. 스마트시티 추진 현황</li>
+                    <li>7. 비대면 서비스 확산</li>
+                    <li>8. 청년 일자리 창출</li>
+                    <li>9. 지속 가능한 발전 목표
+                    </li>
+                    <li>10. 창업 지원 프로그램
+                    </li>
+                </ol>
+            </div>        </div>
+    </div>
+    <div class="login_modal">
+        <div class="close_icon2">
+            <h4>로그인</h4>
+            <img src="images/close_icon.svg" alt="" id="close_2">  
+        </div>
+        <div class="login_area">  
+        <div class="id_login">
+            <div class="text_block" id="id_login_block">
+                <h2>아이디 로그인</h2>
+            </div>
+        </div>
+        <div class="sns_login">
+            <div class="text_block" id="sns_login_block">
+                <h2>SNS 로그인</h2>
+            </div>
+        </div>
+    </div>
+       <div class="login_data" id="login_id">
+        <h5>이메일 아이디를 사용하는 회원 여러분의 로그인 절차입니다. (일반 회원가입)
+        </h5>
+        <input type="login" class="login_login" placeholder="아이디를 입력해주세요.">
+        <input type="password" class="login_password" placeholder="비밀번호를 입력해주세요.">
+        <div class="remember_box">
+        <input type="checkbox" class="login_checkbox" id="remember"><label for="remember" class="remember_text">아이디 기억</label>
+        </div>
+        <div class="login_box">로그인</div>
+        <div class="login_sub">
+            <h4>아이디 찾기</h4>
+            <h4>비밀번호 찾기</h4>
+            <h4>회원가입</h4>
+        </div>
+    </div>
+       <div class="login_data" id="sns_id">
+        <h5>SNS 계정으로 가입하신 회원 여러분의 로그인 절차입니다.
+            <br>
+            <strong>혁신24 공직자 회원은 반드시 "아이디 로그인"</strong>으로 로그인해 주시기 바랍니다.
+        </h5>
+        <div class="sns_login_box">
+            <div class="sns_btn"><img src="images/sns_login1.svg" alt="">
+                <h4>
+                    페이스북 계정으로 로그인
+                </h4>
+            </div>
+            <div class="sns_btn" id="kakao_id"><img src="images/sns_login2.svg" alt="">
+                <h4>
+                    카카오톡 계정으로 로그인
+                </h4></div>
+            <div class="sns_btn" id="naver_id"><img src="images/sns_login3.svg" alt="">
+                <h4>
+                    네이버 계정으로 로그인
+                </h4></div>
+        </div>
+    </div>
+    </div>
+    <div class="media_modal_tablet">
+        <div class="modal_top">
+            <div class="m_t_btn" id="tablet_search">
+            <img src="images/modal_media_search.svg" alt="">
+            통합검색
+            </div>
+            <div class="gapgap"></div>
+            <div class="m_t_btn" id="tablet_login">
+            <img src="images/modal_media_login.svg" alt="">
+            로그인
+            </div>
+            <div class="gapgap"></div>
+            <div class="m_t_btn">
+            <img src="images/modal_media_join.svg" alt="">
+            회원가입
+            </div>
+        </div>
+        <div class="tablet_search_body">
+            <input type="search" class="search_box" placeholder="검색어를 입력해주세요.">
+            <div class="search_icon">
+                <h4>검색<img src="images/header_icon_search.png" alt=""></h4>
+            </div>        </div>
+       <div class="media_modal_accordion">
+        <div class="acco">
+            <div class="acco_head">정부혁신 <img src="images/arrowbottom.png" alt="" class="acco_arrow"></div>
+                <div class="acco_inner">
+                    <div class="acco_sub">
+                        <a href="notice.html#notice_main">
+                        비전 및 추진계획</a></div>
+                    <div class="acco_sub">
+                        <a href="notice.html#plan">
+                            중점과제
+                        </a>
+                    </div>
+                    <div class="acco_sub">
+                        <a href="notice.html#goals">
+                        기관별 실행계획
+                    </a>
+                    </div>
+                </div>
+        </div>
+        <div class="acco">
+            <div class="acco_head">공지사항 <img src="images/arrowbottom.png" alt="" class="acco_arrow"></div>
+                <div class="acco_inner">
+                    <div class="acco_sub">공지·안내</div>
+                    <div class="acco_sub">이벤트</div>
+                </div>
+        </div>
+        <div class="acco">
+            <div class="acco_head">혁신활동·참여 <img src="images/arrowbottom.png" alt="" class="acco_arrow"></div>
+                <div class="acco_inner">
+                    <div class="acco_sub">현장 활동</div>
+                    <div class="acco_sub">혁신 릴레이</div>
+                    <div class="acco_sub">정부혁신 어벤져스</div>
+                    <div class="acco_sub">국민 참여</div>
+                </div>
+        </div>
+        <div class="acco">
+            <div class="acco_head">정책정보 <img src="images/arrowbottom.png" alt="" class="acco_arrow"></div>
+                <div class="acco_inner">
+                    <div class="acco_sub">국정 과제</div>
+                    <div class="acco_sub">정책 추진 방향</div>
+                    <div class="acco_sub">정책 소개</div>
+                </div>
+        </div>
+        <div class="acco">
+            <div class="acco_head">기관소개 <img src="images/arrowbottom.png" alt="" class="acco_arrow"></div>
+                <div class="acco_inner">
+                    <div class="acco_sub">혁신24는?</div>
+                    <div class="acco_sub">조직안내</div>
+                    <div class="acco_sub">찾아오시는 길</div>
+                </div>
+        </div>
+        <div class="acco">
+            <div class="acco_head">자료실 <img src="images/arrowbottom.png" alt="" class="acco_arrow"></div>
+                <div class="acco_inner">
+                    <div class="acco_sub">
+                        <a href="board.html">
+                            최초·최고사례
+                        </a></div>
+                    <div class="acco_sub">이달의 추천 공공서비스</div>
+                    <div class="acco_sub">우수사례</div>
+                    <div class="acco_sub">경진대회 수상작</div>
+                    <div class="acco_sub">정책자료</div>
+                    <div class="acco_sub">홍보자료</div>
+                </div>
+        </div>
+       </div>
+       <script>
+        let acco_head = document.querySelectorAll(".acco_head");
+        let acco_inner = document.querySelectorAll(".acco_inner");
+        let acco_arrow = document.querySelectorAll(".acco_arrow");
+            acco_head.forEach((head, index) => {
+            head.addEventListener('click', function(){
+                if (acco_inner[index].classList.contains('active')) {
+                    acco_inner[index].classList.remove('active');
+                    acco_arrow[index].style.transform  = "rotate(0deg)";
+                } else {
+                    acco_inner[index].classList.add('active');
+                    acco_arrow[index].style.transform  = "rotate(180deg)";
+                }
+            });    
+        })
+       </script>
+    </div>
+    <script>
+        let id_login = document.querySelector('.id_login');
+        let sns_login = document.querySelector('.sns_login');
+        let id_login_block = document.getElementById('id_login_block');
+        let sns_login_block = document.getElementById('sns_login_block');
+        let text_block = document.getElementsByClassName('text_block');
+        let login_data = document.getElementsByClassName('login_data')
+        text_block[0].classList.add("active");
+        login_data[0].classList.add("active");
+
+        id_login.addEventListener('click', function() {
+                text_block[0].classList.add("active");
+                text_block[1].classList.remove("active");
+                login_data[0].classList.add("active");
+                login_data[1].classList.remove("active");
+
+         });
+        sns_login.addEventListener('click', function() {
+                text_block[0].classList.remove("active"); 
+                text_block[1].classList.add("active"); 
+                login_data[0].classList.remove("active");
+                login_data[1].classList.add("active");
+         });
+        
+    </script>
+    <script>
+        let searchbtn = document.getElementById("searchbtn");
+        let modalwindow = document.querySelector(".modal");
+        let modalwindow_tablet = document.querySelector(".media_modal_tablet");
+        let modalback = document.querySelector(".modal_on");
+        let modalback_media = document.querySelector(".modal_on_media");
+        let closebtn = document.querySelector(".close_icon");
+        let closebtn2 = document.getElementById("close_2");
+        let loginbtn = document.getElementById("loginbtn");
+        let login = document.querySelector(".login_modal");
+
+        searchbtn.addEventListener('click',function(){
+            modalwindow.classList.add('active');
+            modalback.classList.add('active');
+        })
+
+        loginbtn.addEventListener('click',function(){
+            login.classList.add('active');
+            modalback.classList.add('active');
+        })
+
+        closebtn.addEventListener('click',function(){
+            modalwindow.classList.remove('active');
+            modalback.classList.remove('active');
+        })
+        closebtn2.addEventListener('click',function(){
+            login.classList.remove('active');
+            modalback.classList.remove('active');
+        })
+
+        // 반응형 모달
+
+        let mediaModal = document.querySelector(".right_area_media");
+        let tablet_login = document.getElementById("tablet_login");
+        let tablet_search = document.getElementById("tablet_search");
+        let tablet_search_body = document.querySelector(".tablet_search_body");
+
+        mediaModal.addEventListener('click',function(){
+
+            if (modalback_media.classList.contains('active')) 
+            {
+                modalwindow_tablet.classList.remove('active');
+                modalback_media.classList.remove('active');
+            }else{
+                modalwindow_tablet.classList.add('active');
+                modalback_media.classList.add('active');
+            }
+        })
+
+        tablet_login.addEventListener('click',function(){
+            login.classList.add('active');
+        })
+
+        tablet_search.addEventListener('click',function(){
+            if (tablet_search_body.classList.contains('active'))
+            {
+                tablet_search_body.classList.remove('active');
+            }
+            else{
+                tablet_search_body.classList.add('active');
+            }
+        })
+        document.querySelector('.right_area_media').addEventListener('click', function() {
+        var imgElement = document.getElementById('media-icon');
+        
+        // 현재 이미지 경로가 media_menu.svg라면 close_icon.svg로 변경
+        if (imgElement.src.includes('media_menu.svg')) {
+            imgElement.src = 'images/close_icon.svg';
+        } else {
+            // 이미 close_icon.svg라면 다시 media_menu.svg로 변경
+            imgElement.src = 'images/media_menu.svg';
+        }
+    });
+
+    </script>
+    <!-- main_visual 슬라이드 기능은 나중에  -->
+    <section class="main_visual">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="images/main_visual_01.png" alt="">
+                        <div class="img_text">
+                            <h4 class="img_title">행정안전부</h4>
+                            <h3 class="img_main">행안부 장관, 의사 집단행동 중앙재난안전대책본부 회의 주재
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="images/main_visual_02.png" alt="">
+                        <div class="img_text">
+                            <h4 class="img_title">행정안전부</h4>
+                            <h3 class="img_main">경기도 부천 호텔 화재 현장점검 🚨</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="images/main_visual_03.png" alt="">
+                        <div class="img_text">
+                            <h4 class="img_title">8월 15일 광복절 태극기 달기</h4>
+                            <h3 class="img_main">제79주년 광복절 태극기 달기!
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="images/main_visual_04.png" alt="">
+                        <div class="img_text">
+                            <h4 class="img_title">정부혁신</h4>
+                            <h3 class="img_main">🚦횡단보도 밑 LED 바닥 신호등! 사실 경찰 작품이라고?
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="images/main_visual_05.png" alt="">
+                        <div class="img_text">
+                            <h4 class="img_title">정부 최초·최고</h4>
+                            <h3 class="img_main">온라인·원스톱 대환대출 이건 한국이 "1등" 전 세계가 놀란 제 3회 정부혁신 사례들‼
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="images/main_visual_06.png" alt="">
+                        <div class="img_text">
+                            <h4 class="img_title">정부혁신 미래전략포럼📝
+                            </h4>
+                            <h3 class="img_main"> 인구지체현상 극복을 위한 정부혁신 방향
+                            </h3>
+                        </div>
+                    </div>
+                </div>         
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="images/main_visual_07.png" alt="">
+                        <div class="img_text">
+                            <h4 class="img_title">정부혁신</h4>
+                            <h3 class="img_main">K GOVERNANCE GLOBAL CONNECT 👀 </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="images/main_visual_08.png" alt="">
+                        <div class="img_text">
+                            <h4 class="img_title">정부혁신</h4>
+                            <h3 class="img_main">마이데이터 혁신, 금융을 넘어 건강💪🏼관리까지</h3>
+                        </div>
+                    </div>
+                </div>        
+            </div>       
+            <div class="controller">
+                <div class="swiper-button-prev"><button class="prev"><img src="images/main_section_slide_prev.svg" alt=""></button></div>
+                <button class="pause"><img src="images/main_section_slide_pause.svg" alt=""></button>
+                <div class="swiper-button-next"><button class="next"><img src="images/main_section_slide_next.svg" alt=""></button></div>
+                <button class="plus"><img src="images/main_section_slide_plus.png" alt=""></button>
+            </div>
+               <div class="swiper-pagination">
+               </div>
+        </div>
+          <div class="mouse_hover">
+              <a href="#monthly"><img src="images/cursor_icon.png" alt=""></a> 
+          </div>
+          <script src="js/main_slide.js"></script>
+        </section>
+    <!-- monthly_service -->
+    <div id="monthly"></div>
+    <section class="monthly_service">
+        <div class="left_section">
+            <h2 class="left_title">이달의 추천 <strong>공공서비스</strong></h2>
+        <div class="controller">
+            <h5><strong id="countSlide">1 </strong> / 5</h5>
+            <button class="prev" id="prevBtn"><img src="images/Type=arrow-left.svg" alt=""></button>
+            <button class="pause" id="pauseBtn"><img src="images/Type=stop.svg" alt=""></button>
+            <button class="next" id="nextBtn"><img src="images/Type=arrow-right.svg" alt=""></button>
+        </div>
+        <div class="left_slider">
+            <div class="l_slide">
+                <img src="images/monthly_slide_01.png" alt="" class="slide_img active">
+                <img src="images/monthly_slide_02.png" alt="" class="slide_img">
+                <img src="images/monthly_slide_03.png" alt="" class="slide_img">
+                <img src="images/monthly_slide_04.png" alt="" class="slide_img">
+                <img src="images/monthly_slide_05.png" alt="" class="slide_img">
+            </div>
+        </div>
+    </div>
+    <script src="js/subslide.js"></script>
+
+        <div class="right_section">
+            <h4 class="right_title">국민과 소통하는 대통령실 브리핑룸</h4>
+                <div class="card_news">
+                    <div class="card_image_box">
+                        <img src="images/monthly_card_01.png" alt="">
+                    </div>
+                    <div class="card_image_text">
+                        <h4 class="image_title">2024 정부혁신 종합계획</h4>
+                    </div>
+                </div>
+                <div class="card_news">
+                    <div class="card_image_box">
+                        <img src="images/monthly_card_02.png" alt="">
+                    </div>
+                    <div class="card_image_text">
+                        <h4 class="image_title">국민과 함께하는 민생토론회</h4>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- btn_service -->
+    <section class="btn_service">
+        <h2 class="main_title">자주찾는 <strong>서비스</strong></h2>
+        <div class="service_tab">
+            <ul class="service_icon">
+                <li class="icon">
+                    <a href="notice.html#vision">
+                    <div class="icon_img"><img src="images/service_icon_01.svg" alt=""></div>
+                    <p class="icon_text">혁신비전</p>
+                </a>
+                </li>
+                <li class="icon">
+                    <div class="icon_img"><img src="images/service_icon_02.svg" alt=""></div>
+                    <p class="icon_text">정책자료</p>
+                </li>
+                <li class="icon">
+                    <div class="icon_img"><img src="images/service_icon_03.svg" alt=""></div>
+                    <p class="icon_text">보도자료</p>
+                </li>
+                <li class="icon">
+                    <div class="icon_img"><img src="images/service_icon_04.svg" alt=""></div>
+                    <p class="icon_text">홍보자료</p>
+                </li>
+                <li class="icon">
+                    <div class="icon_img"><img src="images/service_icon_05.svg" alt=""></div>
+                    <p class="icon_text">진행상황</p>
+                </li>
+                <li class="icon">
+                    <div class="icon_img"><img src="images/service_icon_06.svg" alt=""></div>
+                    <p class="icon_text">혁신활동</p>
+                </li>
+                <li class="icon">
+                    <div class="icon_img"><img src="images/service_icon_07.svg" alt=""></div>
+                    <p class="icon_text">카드뉴스</p>
+                </li>
+            </ul>
+            <div class="service_prev">
+                <img src="images/service_button_prev.svg" alt="">
+            </div>
+            <div class="service_next">
+                <img src="images/service_button_next.svg" alt="">
+            </div>
+            <div class="service_pagination">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <script>
+            const icons = document.querySelectorAll('.service_icon .icon');
+            const prevBtn = document.querySelector('.service_prev');
+            const nextBtn = document.querySelector('.service_next');
+            const pagination = document.querySelectorAll('.service_pagination span');
+            let currentIndex = 0;
+            const itemsPerPage = 3;
+            const totalItems = icons.length;
+            const totalPages = Math.ceil(totalItems / itemsPerPage);
+
+            function updateActiveIcons() {
+                icons.forEach(icon => icon.classList.remove('active'));
+                for (let i = currentIndex * itemsPerPage; i < (currentIndex * itemsPerPage) + itemsPerPage; i++) {
+                    if (icons[i]) {
+                        icons[i].classList.add('active');
+                    }
+                }
+                pagination.forEach((dot, idx) => {
+                    dot.classList.toggle('active', idx === currentIndex);
+                });
+            }
+
+            prevBtn.addEventListener('click', () => {
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : totalPages - 1;
+                updateActiveIcons();
+            });
+
+            nextBtn.addEventListener('click', () => {
+                currentIndex = (currentIndex < totalPages - 1) ? currentIndex + 1 : 0;
+                updateActiveIcons();
+            });
+
+            pagination.forEach((dot, idx) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = idx;
+                    updateActiveIcons();
+                });
+            });
+
+            // 초기 상태에서 첫 번째 페이지 아이콘 활성화
+            updateActiveIcons();
+        </script>
+    </section>
+    <!-- notice_visual -->
+    <section class="notice_visual">
+        <div class="left_section">
+            <h2 class="left_title"> 혁신을 <strong>말하다</strong></h2>
+            <div class="controller">
+                <h5><strong id="currentSlide2">1</strong> / 6</h5>
+                <button class="prev" id="prevBtn2"><img src="images/Type=arrow-left.svg" alt=""></button>
+                <button class="pause" id="pauseBtn2"><img src="images/Type=stop.svg" alt=""></button>
+                <button class="next" id="nextBtn2"><img src="images/Type=arrow-right.svg" alt=""></button>
+            </div>
+            <div class="left_slider">
+                <div class="slider">
+                    <div class="card_news active">
+                        <div class="card_image_box">
+                            <img src="images/notice_slide_01.png">
+                            <div class="card_image_text">
+                                <h4 class="image_categori"> 혁신활동 </h4>
+                                <h3 class="image_title"> 해양수산부 인천지방해양수산청 블라인드 티타임 실시 </h3>
+                                <h5 class="image_in_text"> 해양수산부 인천지방해양수산청(청장 김재철)은 6월26일(수) 조직문화 개선을 위한 '블라인드 티타임'을 진행하였습니다. <br> 하지만 제 생각에 이 커피는 충분히 이븐하게 로스팅 되지 않은 것 같어요. 죄송합니다. 불합격입니다. 허정 불합격! 충격적인 전개로 스튜디오는 얼어붙고 마는데...! </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_news">
+                        <div class="card_image_box">
+                            <img src="images/notice_slide_02.png">
+                            <div class="card_image_text">
+                                <h4 class="image_categori"> 어벤져스 혁신활동
+                                </h4>
+                                <h3 class="image_title"> 국방부 혁신 어벤져스, 안보워크숍 진행 </h3>
+                                <h5 class="image_in_text"> ‘국방부 혁신 어벤져스’가 창끝부대를 찾아갔다. <br>
+                                투철한 국가관 확립과 업무혁신 과제 발굴을 위해 국방부 혁신행정담당관과 혁신 어벤져스 등 14명이 9월 4~6일 간 동해안 일대 해·공군 부대를 방문하는 안보 워크숍을 진행했다.
+                                 </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_news">
+                        <div class="card_image_box">
+                            <img src="images/notice_slide_03.png">
+                            <div class="card_image_text">
+                                <h4 class="image_categori"> 어벤져스 혁신활동 </h4>
+                                <h3 class="image_title"> 국방부 혁신 어벤져스, 민간 기업 조직문화 벤치마킹 </h3>
+                                <h5 class="image_in_text"> 국방부는 혁신 마인드 제고를 위해 인공지능(AI) 스타트업 기업인 ‘올거나이즈’를 8월 1일 방문했다.<br>
+                                   기업을 방문한 혁신 어벤져스 직원들은 기업 소개와 사내 복지제도, 성과평가 제도, 소통방식 등에 대해 들은 뒤 토의하는 시간을 가졌다. </h5>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="card_news">
+                        <div class="card_image_box">
+                            <img src="images/notice_slide_04.png">
+                            <div class="card_image_text">
+                                <h4 class="image_categori"> 혁신릴레이 </h4>
+                                <h3 class="image_title"> 산업통상자원부 혁신 프로그램 </h3>
+                                <h5 class="image_in_text"> 혁신 프로그램(변화관리) 현장방문(수출현장 가보자Go)<br>
+                                  ㅇ일시: 2024년 7월 18일(목) ~ 2024년 7월 19일(금)  1박 2일</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_news">
+                        <div class="card_image_box">
+                            <img src="images/notice_slide_05.png">
+                            <div class="card_image_text">
+                                <h4 class="image_categori"> 현장활동 </h4>
+                                <h3 class="image_title">  '맑은 눈의 엠지(MZ)'에게 직접 듣는다! 장관님과의 혁신간담회 개최 </h3>
+                                <h5 class="image_in_text"> 문체부 혁신모임 5기 '맑은 눈의 MZ'가 유인촌 장관님과 우리 부 일하는 방식과 조직문화 혁신에 대해 직접 논의했습니다!<br>
+                                    우리 부 조직문화 혁신의 현상황이 어떤지 직접 진단해보고, 
+                                    지금까지 민간혁신기업 탐방을 통해 벤치마킹 하고 싶은 아이디어들도 장관님께 공유하였습니다.                                                                     
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_news">
+                        <div class="card_image_box">
+                            <img src="images/notice_slide_06.png">
+                            <div class="card_image_text">
+                                <h4 class="image_categori"> 혁신활동 </h4>
+                                <h3 class="image_title"> 문화체육관광부 혁신모임 5기 오찬간담회 개최('24.3.) </h3>
+                                <h5 class="image_in_text"> '24년 문체부 일하는 방식 및 조직문화 개선 계획 수립을 위해 문체부 혁신 어벤져스 5기('맑은 눈의 MZ')와 함께 오찬 간담회를 가졌습니다.<br>
+                                    청년, 신규 공무원들의 애로사항과 조직문화에 개선이 필요한 사항을 청취하고 이를 우리부 일하는 방식 및 조직문화 개선 계획에 반영하여 수립하였습니다.                         
+                                     </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/subslide2.js"></script>
+        <div class="right_section">
+            <div class="notice_tab">
+                <button class="notice active" id="btn0">전체</button>
+                <button class="notice" id="btn1">공지·안내</button>
+                <button class="notice" id="btn2">중점과제</button>
+                <button class="notice" id="btn3">혁신활동</button>
+                <a href="#none" class="more_link">더보기 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  -></a>
+                <img src="images/plus.svg" alt="" class="notice_plusbtn">
+            </div>
+            <div class="notice_main" id="notice_0">
+                <div class="notice_item">
+                    <h3 class="notice_categori">공지·안내</h3>
+                    <h4 class="notice_title">OECD 제7차 열린정부작업반 회의(9.4.~5.) 개최</h4>
+                    <p class="notice_text">
+                        그레임 수네스는 맨체스터 시티와의 타이틀 대결에서 아스날에 대해 그다지 인상적이지 않았다. 아스날에 대해, 그들이 '열등감'을 갖고 있다고 비판했다.
+                        리버풀의 레전드 수네스는 또한 더 이상 아스날이 프리미어 리그에서 우승할 수 있다고 확신하지 못하고 있다.
+                        </p>
+                    <h5 class="notice_date">2024.08.26 </h5>
+                </div>
+                <div class="notice_item">
+                    <h3 class="notice_categori">중점과제</h3>
+                    <h4 class="notice_title">2024년 탄소중립 실천 프로젝트 확대 시행
+                    </h4>
+                    <p class="notice_text">
+                        탄소 배출 감축을 위한 '탄소중립 실천 프로젝트'가 2024년부터 확대 시행됩니다.
+                        주요 산업 분야와 협력하여 배출량 감축 목표를 구체화하고 있습니다.
+                        각 부서별 실천 계획을 수립하여 연말까지 보고서를 제출해야 합니다.
+                        적극적인 참여를 통해 기후변화 대응에 앞장서 주시기 바랍니다.
+                        </p>
+                    <h5 class="notice_date">2024.08.26 </h5>
+                </div>
+                <div class="notice_item">
+                <h3 class="notice_categori">혁신활동</h3>
+                    <h4 class="notice_title">AI 기반 업무 자동화 시스템 도입
+                    </h4>
+                    <p class="notice_text">
+                        효율적인 업무 처리를 위한 AI 기반 자동화 시스템이 올해 말부터 적용됩니다.
+                        반복적인 행정 업무를 줄이고 데이터 분석을 통한 의사결정 지원이 강화됩니다.
+                        시스템 도입을 위한 전 직원 교육이 예정되어 있으며, 참여는 필수입니다.
+                        디지털 혁신을 통해 업무 효율성을 높이는 데 적극 동참해 주시기 바랍니다.
+                        </p>
+                    <h5 class="notice_date">2024.08.26 </h5>
+            </div> 
+                <div class="notice_item media">
+                <h3 class="notice_categori">반응형!</h3>
+                    <h4 class="notice_title">반응형 사이즈에서만 나오는 탭
+                    </h4>
+                    <p class="notice_text">
+                       헉 저는 반응형탭에서만 나와요! 나온다면 정상적으로 작용하는 것이에요. 피곤해서 죽을거 같습니다 제앞으로 남은 공휴일이 몇 없다는것이 너무 슬퍼요 인생
+                        </p>
+                    <h5 class="notice_date">2024.10.07 </h5>
+            </div> 
+            </div>
+            <div class="notice_main" id="notice_1">
+                <div class="notice_item">
+                    <h3 class="notice_categori">공지·안내</h3>
+                    <h4 class="notice_title">2024년 추석 연휴 교통 통제 안내
+                    </h4>
+                    <p class="notice_text">
+                        추석 연휴 기간 동안 주요 도로 교통 통제가 예정되어 있습니다.
+                        교통 혼잡을 피하기 위해 대중교통 이용을 권장드립니다.
+                        자세한 교통 통제 시간과 구간은 추후 공지될 예정입니다.
+                        </p>
+                    <h5 class="notice_date">2024.08.26 </h5>
+                </div>
+                <div class="notice_item">
+                    <h3 class="notice_categori">공지·안내</h3>
+                    <h4 class="notice_title">2024년 상반기 IT 교육 프로그램 신청 안내
+                    </h4>
+                    <p class="notice_text">IT 분야 역량 강화를 위한 상반기 교육 프로그램이 열립니다.
+                        신청은 10월 15일부터 홈페이지에서 가능합니다.
+                        자세한 일정 및 과정 정보는 교육 페이지를 참고해 주세요. 2024년 상반기에 열심히 사세요 여러분.                       
+                        </p>
+                    <h5 class="notice_date">2024.08.26 </h5>
+                </div>
+                <div class="notice_item">
+                    <h3 class="notice_categori">공지·안내</h3>
+                    <h4 class="notice_title">사내 복지 혜택 확대 및 신규 제도 안내
+                    </h4>
+                    <p class="notice_text">직원 복지 혜택이 대폭 확대되었습니다.
+                        신규 도입된 복지 포인트와 건강 검진 지원 프로그램을 확인하세요.
+                        자세한 사항은 사내 공지나 인사팀에 문의하시기 바랍니다.                        
+                    </p>
+                    <h5 class="notice_date">2024.08.26 </h5>
+                </div>
+                <div class="notice_item media">
+                    <h3 class="notice_categori">공지·안내</h3>
+                        <h4 class="notice_title">반응형 사이즈에서만 나오는 탭
+                        </h4>
+                        <p class="notice_text">
+                           헉 저는 반응형탭에서만 나와요! 나온다면 정상적으로 작용하는 것이에요. 피곤해서 죽을거 같습니다 제앞으로 남은 공휴일이 몇 없다는것이 너무 슬퍼요 인생
+                            </p>
+                        <h5 class="notice_date">2024.10.07 </h5>
+                </div>
+            </div> 
+            <div class="notice_main" id="notice_2">
+                <div class="notice_item">
+                    <h3 class="notice_categori">중점과제</h3>
+                    <h4 class="notice_title">2024년 탄소중립 실천 프로젝트 확대 시행
+                    </h4>
+                    <p class="notice_text">
+                        탄소 배출 감축을 위한 '탄소중립 실천 프로젝트'가 2024년부터 확대 시행됩니다.
+                        주요 산업 분야와 협력하여 배출량 감축 목표를 구체화하고 있습니다.
+                        각 부서별 실천 계획을 수립하여 연말까지 보고서를 제출해야 합니다.
+                        적극적인 참여를 통해 기후변화 대응에 앞장서 주시기 바랍니다.
+                        </p>
+                    <h5 class="notice_date">2024.08.26 </h5>
+                </div>
+                <div class="notice_item">
+                    <h3 class="notice_categori">중점과제</h3>
+                    <h4 class="notice_title">중소기업 지원을 위한 기술혁신 플랫폼 구축
+                    </h4>
+                    <p class="notice_text">중소기업의 디지털 전환을 돕기 위한 기술혁신 플랫폼이 올해 말까지 완성됩니다.
+                        AI 및 빅데이터 활용 지원을 통해 경쟁력 있는 비즈니스 모델을 마련할 예정입니다.
+                        정부와 민간 협력이 강화되어 중소기업의 성장 촉진이 목표입니다.
+                        관련 부서의 협조와 적극적인 참여를 부탁드립니다.                       
+                        </p>
+                    <h5 class="notice_date">2024.08.26 </h5>
+                </div>
+                <div class="notice_item">
+                    <h3 class="notice_categori">중점과제</h3>
+                    <h4 class="notice_title">친환경 에너지 전환 로드맵 실행 계획 발표
+                    </h4>
+                    <p class="notice_text">친환경 에너지 전환을 위한 2030 로드맵의 실행 계획이 발표되었습니다.
+                        태양광, 풍력 등 재생 에너지 확대를 위해 각 부처가 긴밀히 협력합니다.
+                        해당 과제는 연차별로 평가되며, 이행 성과가 우수한 부서는 추가 예산이 지원됩니다.
+                        모든 관련 부서의 적극적인 협력과 참여를 부탁드립니다.                        
+                    </p>
+                    <h5 class="notice_date">2024.08.26 </h5>
+                </div>      
+                <div class="notice_item media">
+                    <h3 class="notice_categori">중점과제</h3>
+                        <h4 class="notice_title">반응형 사이즈에서만 나오는 탭
+                        </h4>
+                        <p class="notice_text">
+                           헉 저는 반응형탭에서만 나와요! 나온다면 정상적으로 작용하는 것이에요. 피곤해서 죽을거 같습니다 제앞으로 남은 공휴일이 몇 없다는것이 너무 슬퍼요 인생
+                            </p>
+                        <h5 class="notice_date">2024.10.07 </h5>
+                </div>
+            </div> 
+            <div class="notice_main" id="notice_3">
+                <div class="notice_item">
+                    <h3 class="notice_categori">혁신활동</h3>
+                    <h4 class="notice_title">AI 기반 업무 자동화 시스템 도입
+                    </h4>
+                    <p class="notice_text">
+                        효율적인 업무 처리를 위한 AI 기반 자동화 시스템이 올해 말부터 적용됩니다.
+                        반복적인 행정 업무를 줄이고 데이터 분석을 통한 의사결정 지원이 강화됩니다.
+                        시스템 도입을 위한 전 직원 교육이 예정되어 있으며, 참여는 필수입니다.
+                        디지털 혁신을 통해 업무 효율성을 높이는 데 적극 동참해 주시기 바랍니다.
+                        </p>
+                    <h5 class="notice_date">2024.08.26 </h5>
+                </div>
+                <div class="notice_item">
+                    <h3 class="notice_categori">혁신활동</h3>
+                    <h4 class="notice_title">스마트 오피스 전환을 위한 파일럿 프로그램 실시
+                    </h4>
+                    <p class="notice_text">사무 공간의 효율적인 사용을 위해 스마트 오피스 파일럿 프로그램이 시작됩니다.
+                        IoT 기술을 활용한 실시간 공간 예약, 원격 회의 시스템이 주요 기능입니다.
+                        이번 프로그램은 시범적으로 본사에서 운영되며, 성과에 따라 전국으로 확대될 예정입니다.
+                        관련 부서의 피드백을 바탕으로 프로그램을 개선해 나가겠습니다.
+                        </p>
+                    <h5 class="notice_date">2024.08.26 </h5>
+                </div>
+                <div class="notice_item">
+                    <h3 class="notice_categori">혁신활동</h3>
+                    <h4 class="notice_title">사내 혁신 아이디어 공모전 개최
+                    </h4>
+                    <p class="notice_text">조직의 혁신을 이끌기 위한 사내 아이디어 공모전이 진행됩니다.
+                        우수한 아이디어는 실제 사업으로 연계될 기회가 주어지며, 채택 시 포상도 있습니다.
+                        주제는 제한이 없으며, 창의적인 업무 프로세스 개선 방안을 제안해 주시면 됩니다.
+                        혁신을 통해 더 나은 미래를 만들어 갈 수 있도록 많은 참여 부탁드립니다.
+                    </p>
+                    <h5 class="notice_date">2024.08.26 </h5>
+                </div>
+                <div class="notice_item media">
+                    <h3 class="notice_categori">혁신활동</h3>
+                        <h4 class="notice_title">반응형 사이즈에서만 나오는 탭
+                        </h4>
+                        <p class="notice_text">
+                           헉 저는 반응형탭에서만 나와요! 나온다면 정상적으로 작용하는 것이에요. 피곤해서 죽을거 같습니다 제앞으로 남은 공휴일이 몇 없다는것이 너무 슬퍼요 인생
+                            </p>
+                        <h5 class="notice_date">2024.10.07 </h5>
+                </div>
+            </div> 
+            <script>
+                    let noticebtn = document.querySelectorAll('.notice');
+                    noticebtn.forEach(function(button) {
+                    button.addEventListener('click', function() {
+                        noticebtn.forEach(btn => btn.classList.remove('active'));
+                        button.classList.add('active');
+                        });
+                    });
+
+                    let btn0 = document.getElementById('btn0');
+                    let notice0 = document.getElementById('notice_0');
+                    let btn1 = document.getElementById('btn1');
+                    let notice1 = document.getElementById('notice_1');
+                    let btn2 = document.getElementById('btn2');
+                    let notice2 = document.getElementById('notice_2');
+                    let btn3 = document.getElementById('btn3');
+                    let notice3 = document.getElementById('notice_3');
+                    notice0.classList.add('active');
+                    btn0.addEventListener('click',function(){
+                        notice0.classList.add('active');
+                        notice1.classList.remove('active');
+                        notice2.classList.remove('active');
+                        notice3.classList.remove('active');
+                    })
+                    btn1.addEventListener('click',function(){
+                        notice0.classList.remove('active');
+                        notice1.classList.add('active');
+                        notice2.classList.remove('active');
+                        notice3.classList.remove('active');
+                    })
+                    btn2.addEventListener('click',function(){
+                        notice0.classList.remove('active');
+                        notice1.classList.remove('active');
+                        notice2.classList.add('active');
+                        notice3.classList.remove('active');
+                    })
+                    btn3.addEventListener('click',function(){
+                        notice0.classList.remove('active');
+                        notice1.classList.remove('active');
+                        notice2.classList.remove('active');
+                        notice3.classList.add('active');
+                    })
+            </script>
+        </div>
+    </section>
+    <!-- sns_visual -->
+    <section class="sns_visual">
+        <div class="sns_visual_header">
+        <h2 class="main_title"> 함께하는 <strong>혁신</strong>
+        </h2>
+          <div class="sns_sub">
+                <a href="https://www.youtube.com/@innogov" target="_blank"><img src="images/sns_youtube.png" alt=""></a>
+                <a href="https://www.facebook.com/innovation.korea" target="_blank"><img src="images/sns_facebook.png" alt=""></a>
+                <a href="https://pf.kakao.com/_NfKlj" target="_blank"><img src="images/sns_kakao.png" alt=""></a>
+            </div>
+        </div>
+        <div class="sns_main">
+            <div class="youtube_card">
+                <a href="https://youtu.be/AUfhz8OXxr0?si=rQlYHTA15eF1f8mg" target="_blank"></a>
+                <img src="images/sns_youtube_overicon.png" alt="" class="overicon">
+            </div>
+            <div class="face_card">
+                <a href="https://www.facebook.com/photo/?fbid=828499636093442&set=a.223216683288410" target="_blank"></a>
+                <img src="images/sns_facebook_overicon.svg" alt="" class="overicon">
+            </div>
+            <div class="kakao_card">
+                <a href="https://pf.kakao.com/_NfKlj/106520021" target="_blank"></a>
+                <img src="images/sns_kakao_overicon.svg" alt="" class="overicon">
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer_top">
+            <div class="f_t_menu">
+                <a href="https://buly.kr/8ek0iIE" target="_blank">
+                <div class="f_menu_item">
+                    <h4>홈페이지이용약관</h4>
+                    <img src="images/plus.svg" alt="">
+                </div>
+            </a>
+                <a href="https://buly.kr/3NHHHpa" target="_blank">
+                <div class="f_menu_item">
+                    <h4>개인정보처리방침</h4>
+                    <img src="images/plus.svg" alt="">
+                </div>
+                </a>
+                <div class="f_menu_item">
+                    <h4>국민참여플랫폼</h4>
+                    <img src="images/plus.svg" alt="">
+                </div>
+                <div class="f_menu_item">
+                    <h4>혁신관련사이트</h4>
+                    <img src="images/plus.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer_main">
+            <div class="footer_logo">
+                <img src="images/footer_logo.png" alt="">
+            </div>
+            <div class="footer_menu">
+            <div class="footer_m_left">
+                <div class="f_address">
+                    <h4>(30112) 세종특별자치시 도움6로 42 (어진동) 572번지 정부세종청사 중앙동 </h4>
+                    <h4>시스템 문의: 044-205-2219(행정안전부), 070-4367-1677(유지관리 업체) <strong>E-mail: innogov@korea.kr</strong></h4>
+                </div>
+            </div>
+            <div class="footer_m_right">
+                <div class="f_notice">
+                    <a href="https://buly.kr/8ek0iIE" target="_blank"><h4>이용안내<img src="images/Type=arrow-right.svg" alt=""></h4></a>
+                    <h4>찾아오시는 길 <img src="images/Type=arrow-right.svg" alt=""></h4>
+                </div>
+                <div class="f_snsbtn">
+                    <div class="snsbtn"><a href="https://www.youtube.com/@innogov" target="_blank"><img src="images/footer_sns_youtube.png" alt=""></a></div>
+                    <div class="snsbtn"><a href="https://www.facebook.com/innovation.korea" target="_blank"><img src="images/footer_sns_facebook.png" alt=""></a></div>
+                    <div class="snsbtn"><a href="https://pf.kakao.com/_NfKlj" target="_blank"><img src="images/footer_sns_kakao.png" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="footer_b_notice">
+                <a href="https://buly.kr/3NHHHpa" target="_blank"><h4 class="f_b_n_main">개인정보처리방침</h4></a>
+                <a href="https://www.mois.go.kr/frt/sub/a08/copyrightPolicy/screen.do" target="_blank"><h4>저작권 정책</h4></a>
+                <h4 class="copyright">Copyright ⓒ 허정정. All Rights Reserved.</h4>
+            </div>
+            <div class="footer_b_banner">
+                <h4 class="f_b_inner"><img src="images/footer_bottom_logo.png" alt="">이 누리집은 행정안전부 산하기관 혁신24 공식 전자정부 누리집입니다.</h4>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,325 @@
+.main_board{
+    padding: 80px 15vw;
+    margin-top: 180px;
+    box-sizing: content-box;
+}
+
+.board_title{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.board_title img{
+    width: 250px;
+    height: auto;
+    margin: auto;
+}
+.board_title h4{
+    margin-top: 90px;
+    font-size: 17px;
+    word-break: keep-all;
+}
+
+.notice_breadcrumb{
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    font-size: 15px;
+    color: #1D1D1D;
+}
+.notice_breadcrumb>a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;
+    transition: .5s;
+}
+.notice_breadcrumb>a:hover{
+    filter: invert(26%) sepia(66%) saturate(5272%) hue-rotate(200deg) brightness(97%) contrast(93%);
+}
+.notice_breadcrumb img{
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.notice_breadcrumb img{
+    cursor: pointer;
+    filter: invert(80%) sepia(9%) saturate(300%) hue-rotate(314deg) brightness(97%) contrast(79%);
+    width: 24px;
+    height: 24px;
+}
+.notice_breadcrumb span{
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 400;
+    transition: .5s;
+}
+.notice_breadcrumb span:last-child{
+    color: #5089EF;
+    font-weight: bold;
+}
+.notice_breadcrumb span:hover{
+    color: #5089EF;
+}
+.board_menu{
+    margin-top: 80px;
+    display: flex;
+    gap: 100px;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #D8D8D8;
+    box-sizing: border-box;
+}
+.board_menu .menu{
+    width: 20vw;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: .2s;
+}
+.board_menu .menu.best.active {
+    background-color: #EFF5FF; 
+    color: #003675; 
+    border-bottom: 4px solid #003675!important;
+}
+.board_menu .menu.first.active {
+    background-color: #FFEFEF; 
+    color: #003675; 
+    border-bottom: 4px solid #E71825!important;
+}
+.board_menu .menu.best:hover{
+    border-bottom: 4px solid #003675;
+}
+.board_menu .menu.first:hover{
+    border-bottom: 4px solid #E71825;
+}
+.board_main{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.board_search{
+    display: flex;
+}
+#type_select,#type_search{
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #555;
+}
+#type_select{
+    margin-right: 6px;
+}
+#type_search{
+    position: relative;
+    width: 350px;
+}
+.search_box{
+    position: relative;
+    display: flex;
+}
+
+.search_submit{
+    display: flex;
+    justify-content:center;
+    align-items: center;    
+    background-color: #5089EF;
+    margin-left: 6px;
+    padding: 15px 23px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+#type_search:focus {
+    outline: 1px solid #5089EF; 
+}
+
+.board_categori{
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+}
+.board_categori li{
+    color: #555555;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.board_categori li:hover{
+    color: #5089EF;
+    text-decoration: underline;
+}
+.board_categori li.active{
+    color: #5089EF;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.board_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+    justify-content: space-evenly;
+}
+.item{
+    width: 410px;
+    height: 340px;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #c9c9c9;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+.item:hover{
+    background-color: #f1f2f3;
+}
+.item_head_first{
+    display: flex;
+}
+.item_head_best{
+    display: flex;
+}
+.item_head_first h5{
+    padding: 5px;
+    color: #E71825;
+    background-color: #FFEFEF;
+    border-radius: 6px;
+}
+.item_head_best h5{
+    padding: 5px;
+    color: #1D56BC;
+    background-color: #EFF5FF;
+    border-radius: 6px;
+}
+.item_head_first .like{
+    background:none;
+    color: #1D1D1D;
+}
+.item_head_best .like{
+    background:none;
+    color: #1D1D1D;
+}
+.item_head_first .like span{
+    color: #E71825;
+}
+.item_head_best .like span{
+    color: #E71825;
+}
+
+.item_title{
+    margin-top: 45px;
+}
+.item_title h3{
+    color: #1d1d1d;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.item_title h3:hover{
+    text-decoration: underline;
+}
+
+.item_info{
+    margin-top: 35px;
+    line-height: 25px;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 3; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    color: #1D1D1D;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.item_info:hover{
+    text-decoration: underline;
+}
+
+.item_foot{
+    padding-top: 40px;
+    border-top: 1px solid #D8D8D8;
+    display: flex;
+    gap: 10px;
+}
+.item_foot .foot{
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid #c6c6c6;
+    cursor: pointer;
+    transition: .5s;
+}
+.item_foot .foot:hover{
+    background-color: #5089EF;
+    color: #fff;
+    border: 1px solid #5089EF;
+}
+.pagination {
+    background: transparent;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#numbers {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+#numbers li a.active {
+    background: #003675!important;
+    color: #fff;
+    border-radius: 6px;
+}
+
+#numbers li a {
+    color: #555555;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+#numbers li a:hover{
+    background-color: #f0f0f0;
+}
+.pagination .prev_btn,.pagination .next_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 20px 10px;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+}
+.pagination .prev_btn{
+    margin-right: 20px;
+}
+.pagination .next_btn{
+    margin-left: 20px;
+}
+.pagination .prev_btn:hover,.pagination .next_btn:hover{
+    background-color: #f0f0f0;
+
+}

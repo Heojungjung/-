@@ -1,0 +1,814 @@
+
+@media screen and (max-width: 1440px){
+    .monthly_service {
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+    .monthly_service .left_section .controller,.monthly_service .left_slider .l_slide{
+        width: 45vw;
+    }
+
+    .btn_service {
+        padding: 50px 6vw;
+    }
+    .notice_visual {
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+    .sns_visual {
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+    button#btn3 {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1200px){
+    .header_gnb {
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }    
+    .header_gnb .gnb {
+        gap: 10px;
+
+    }
+    .gnb .nav_li a {
+        font-size: 16px;
+    }
+    .w_gnb_menu .menu_wrap .menu_ul{
+        min-width: 200px;
+        margin-left: 6vw;
+    }
+  
+    .sub_ul .sub_li {
+        margin-right: 2vw;
+        margin-bottom: 10px;
+        padding: 15px 10px;
+    }
+    .sub_ul .sub_li h4 {
+        width: 300px;
+    }
+    .swiper-slide .img_box .img_text h3{
+        font-size: 20px;
+        font-weight: 400;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .swiper-slide .img_box .img_text{
+        padding: 12px 12px;
+    }
+    .swiper .controller {
+       top: 55%;
+       box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.281);
+    }
+    .swiper-button-prev, .swiper .controller button,.swiper-button-next{
+        width: 42px;
+        height: 42px;
+    }
+    .swiper-slide .img_box .img_text{
+        height: 85px;
+    }
+    .mouse_hover{
+        scale: 0.8;
+    }
+    .monthly_service .left_section .left_title {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+    .monthly_service .left_slider .l_slide{
+        height: 450px;
+    }
+    .btn_service .main_title {
+        font-size: 34px;
+    }
+    .btn_service .service_tab ul li p {
+        font-size: 18px;
+    }
+    .monthly_service .right_section {
+        margin-left: 0;
+    }
+    h4.right_title {
+        font-size: 22px;
+    }
+    .right_section .card_news:nth-child(2) {
+        height: 215px;
+    }
+    .right_section .card_news{
+        height: 215px;
+    }
+    .right_section .card_news .card_image_text .image_title {
+        font-size: 19px;
+    }
+    .notice_visual {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    .notice_visual .left_section {
+        width: 47vw;
+    }
+    .notice_visual .right_section{
+        width: 39vw;
+    }
+    .notice_visual .right_section .notice_tab .notice,.notice_visual .right_section .notice_tab .notice.active {
+        margin-bottom: 10px;
+    }
+    .notice_visual .left_section .left_slider .card_news{
+        height: auto;
+        max-height: 550px;
+    }
+    .notice_visual .left_section .left_slider .card_image_box .card_image_text{
+        height: auto;
+        max-height: 180;
+    }
+    .notice_visual .left_section .left_slider .card_news .card_image_text .image_categori{
+        padding-top: 5px;
+        font-size: 14px;
+    }
+    .notice_visual .left_section .left_slider .card_news .card_image_text .image_title{
+        padding: 0px 15px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .notice_visual .left_section .left_slider .card_news .card_image_text .image_in_text{
+        font-size: 15px;
+    }
+    button#btn3 {
+        margin: 0;
+    }
+    .notice_visual .right_section .notice_tab .more_link {
+        display: block;
+        color: #003675;
+        font-size: 16px;
+        transition: .5s;
+        padding: 5px;
+        margin-left: 0;
+        width: 100px;
+        border-bottom: 1px solid #003675;
+    }
+    .sns_visual {
+        padding: 0 4vw;
+    }
+    .sns_main{
+        gap: 20px;
+    }
+    .footer_m_left {
+        width: 40vw;
+    }
+    .footer_m_left .f_address strong{
+        margin-left: 0;
+    }
+    .footer_m_right {
+        margin-right: 4vw;
+    }
+    .footer_top .f_t_menu .f_menu_item, .footer_top .f_t_menu a .f_menu_item {
+        width: 20vw;
+    }
+    .footer_top .f_t_menu h4, .footer_top .f_t_menu a h4{
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    header{
+        box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.281);
+        height: 175px;
+    }
+    .header_top{
+        padding-left: 40px;
+    }
+    .head_main .logo_area {
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .head_main .logo_area img{
+        width: 195px;
+        height: 60px;
+    }
+    .head_main .right_area{
+        display: none;
+    }
+    .right_area_media{
+        margin-left: auto;
+        margin-top: 40px;
+        margin-right: 40px;
+
+        cursor: pointer;
+        display: block;
+    }
+    .header_gnb{
+        display: none;
+    }
+    .main_visual{
+    }
+   .swiper-slide{
+    padding: 0px 8vw;
+    width: 100vw!important;
+    } 
+    .swiper-pagination{
+        scale: 0.9;
+    }
+    .swiper-slide .img_box{
+        position: relative;
+    }
+    .swiper-slide .img_box .img_text{
+        width: inherit;
+    }
+    .swiper .controller{
+        left: 50%;
+        transform: translateX(-50%);
+        top: 90%;
+        box-shadow: 0px 0px 5px 1px rgb(211, 211, 211);
+        scale: 0.9;
+    }
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        top: 110%;
+    }
+    .swiper-slide .img_box .img_text h4{
+        text-align: center;
+        font-size: 16px;
+    }
+    .swiper-slide .img_box .img_text h3{
+        font-size: 14px;
+        text-align: center;
+    }
+    .swiper-slide .img_box .img_text{
+        height: 70px;
+    }
+    .mouse_hover{
+        display: none;
+    }
+    .monthly_service{
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-top: 25vh;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    } 
+    .monthly_service .left_section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .monthly_service .left_section .left_title {
+        font-size: 32px;
+        margin-bottom: -28px;
+    }
+    .monthly_service .left_section .left_title h2 {
+        display: inline;
+    }
+    
+    .monthly_service .left_section .controller{
+        margin-left: auto;
+    }
+    .left_section .controller h5{
+        margin-right: 0;
+    }
+   
+    .monthly_service .left_section .controller button{
+        display: none;
+    }
+    .monthly_service .left_slider {
+        width: 92vw;
+        margin-bottom: 50px;
+    }
+    .monthly_service .left_slider .l_slide {
+        width: 92vw;
+        height: 450px;
+    }
+
+    .right_section {
+        width: auto;
+    }
+    .right_section h4{
+        float: left;
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .right_section .card_news {
+        width: 92vw;
+        height: 240px;
+    }
+    .right_section .card_news:nth-child(2) {
+        margin-top: 55px;
+        width: 92vw;
+        height: 240px;
+    }
+    .right_section .card_news .card_image_box {
+        width: 92vw;
+        height: 240px;
+    }
+    .right_section .card_news .card_image_box img {
+        width: 92vw;
+        height: 240px;
+    }.right_section .card_news .card_image_text {
+        height: 65px;
+        display: flex;
+        align-items: center;
+    }
+    .right_section .card_news .card_image_text .image_title{
+        margin-bottom: 0;
+    }
+    .btn_service {
+        padding: 40px 4vw;
+    }
+    .btn_service .main_title {
+        font-size: 32px;
+    }
+    .btn_service .service_tab ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn_service .service_tab ul li{
+        display: none;
+        position: relative;
+        margin-bottom: 15px;
+    }
+    .btn_service .service_tab ul li.active{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .btn_service .service_tab ul li .icon_img {
+        width: 73vw;
+        height: 150px;
+        padding: 0 4vw;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+    }
+    .btn_service .service_tab ul li .icon_img img {
+        width: auto;
+        height: auto;
+    }
+    .btn_service .service_tab ul li p {
+     position: absolute;
+     font-size: 28px;
+     left: 60%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+    }
+    .btn_service .service_tab ul li:hover p{
+        scale: 1.2;
+    }
+  
+    .btn_service .service_tab ul li:hover .icon_img{
+        scale: 1;
+    }
+    .notice_visual {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 5vh;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .service_prev,.service_next,.service_pagination{
+        display: block;
+    }
+    .notice_visual .left_section {
+        width: 95vw;
+        margin-bottom: 80px;
+    }
+    .notice_visual .left_section .left_title{
+        font-size: 32px;
+        margin-bottom: -30px;
+    }
+    .notice_visual .left_section .controller h5{
+        margin-right: 0;
+    }
+    .notice_visual .left_section .controller button{
+        display: none;
+    }
+    .notice_visual .left_section .left_slider .card_news {
+        width: 95vw;
+        height: auto;
+        max-height: 485px;
+    }
+    .notice_visual .left_section .left_slider .card_image_box .card_image_text{
+        height: auto;
+        padding: 10px 0px;
+    }
+    .notice_visual .right_section {
+        width: 95vw;
+        height: auto;
+        margin-top: 400px;
+        margin-left: 0;
+    }   
+    .notice_visual .right_section .notice_tab .notice_plusbtn{
+        display: block;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+        margin-left: auto;
+    }
+    .notice_visual .right_section .notice_tab {    
+        display: flex;
+        justify-content: center;
+     }
+    .notice_visual .right_section .notice_tab button {
+        width: 90px;
+        height: 45px;
+        font-size: 15px;
+    }
+    .notice_visual .right_section .notice_main.active{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .notice_visual .right_section .notice_main .notice_item.media{
+        display: flex;
+    }
+    .notice_visual .right_section .notice_tab .more_link{
+        display: none;
+    }
+    .notice_visual .right_section .notice_main .notice_item {
+        width: 90vw;
+        padding-right: 10px;
+    }
+    .notice_visual .right_section .notice_main .notice_item h3 {
+        font-size: 17px;
+    }
+    .notice_visual .right_section .notice_main .notice_item h4{
+        white-space: normal;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        word-break: keep-all;    
+        font-size: 17px;
+    }
+    .sns_visual {
+        padding: 40px 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .sns_visual_header .main_title, .sns_visual_header strong{
+        font-size: 32px;
+    }
+    .sns_visual_header .sns_sub a img {
+        width: 40px;
+        height: 40px;
+    }
+    .sns_main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sns_main .youtube_card {
+        width: 690px;
+        height: 370px;
+    }
+    .sns_main .face_card, .sns_main .kakao_card{
+        width: 320px;
+        height: 485px;
+    }
+    .footer_top {
+        height: auto;
+        margin: auto;
+        padding: 0;
+    }
+    .footer_top .f_t_menu{
+        display: flex;
+        width: 100vw;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .footer_top .f_t_menu .f_menu_item, .footer_top .f_t_menu a .f_menu_item {
+        height: 60px;
+        width: 50vw;
+        border: 1px solid #eaeaea;
+        box-sizing: border-box;
+    }
+    .footer_main {
+        padding: 40px 40px;
+    }
+    .footer_logo {
+        width: 225px;
+        height: 70px;
+        margin-bottom: 40px;
+    }
+    .footer_logo img {
+        width: inherit;
+        height: inherit;
+    }
+    .footer_m_left {
+        width: 300px;
+    }
+    .footer_m_left .f_address strong {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .footer_bottom .footer_b_notice{
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+    
+    .footer_bottom .footer_b_notice .copyright {
+        margin-left: 0;
+    }
+    .footer_m_right{
+        margin-right: 1vw;
+    }
+    .footer_b_banner {
+    display: none;    
+    }
+    .footer_m_left .f_address h4,.footer_m_right h4{
+        font-size: 14px;
+    }
+    .footer_menu{
+        padding-bottom: 10px;
+    }
+    .footer_bottom .footer_b_notice {
+        gap: 25px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    header {
+        height: 148px;
+    }
+    .head_main{
+        height: auto;
+    }
+    .head_main .logo_area img{
+        width: 126px;
+        height: 38px;
+    }
+    .swiper .controller{
+        display: none;
+    }
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        top: 90%;
+    }
+    .swiper-pagination{
+        scale: 0.8;
+    }
+    .swiper-slide .img_box .img_text h4{
+        text-align: center;
+        font-size: 14px;
+    }
+    .swiper-slide .img_box .img_text h3{
+        font-size: 13px;
+        text-align: center;
+    }
+    .swiper-slide .img_box .img_text{
+        height: 48px;
+        padding: 3px;
+    }
+    .main_visual{
+        margin-top: 20vh;
+    }
+    .monthly_service{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .monthly_service .left_slider .l_slide {
+        width: 92vw;
+        height: 275px;
+    }
+    .monthly_service .left_section .left_title,.notice_visual .left_section .left_title{
+        font-size: 20px;
+        padding-left: 2vw;
+    }
+    .left_section .controller h5{
+        font-size: 15px;
+    }
+    .monthly_service .left_section .left_title{
+        margin-bottom: -20px;
+    }
+    .right_section{
+        margin-top: 0;
+    }
+    .right_section h4{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        text-align: center;
+    }
+    .right_section .card_news,
+    .right_section .card_news .card_image_box,.right_section .card_news:nth-child(2),
+    .right_section .card_news .card_image_box img {
+        height: 20vh;
+    }
+    .right_section .card_news .card_image_text{
+        height: 6vh;
+    }
+    
+    .btn_service .service_tab ul li .icon_img{
+        width: 70vw;
+        height: 15vh;
+    }
+    .btn_service .service_tab ul li{
+        margin-bottom: 10px;
+    }
+    .btn_service .service_tab ul li p {
+        left: 60%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .btn_service .service_tab ul li .icon_img{
+        margin-bottom: 0;
+    }
+    .notice_visual .left_section .controller h5{
+        font-size: 15px;
+        margin-right: 0;
+    }
+    .notice_visual .left_section .left_title{
+        margin-bottom: -20px;
+    }
+    .notice_visual .left_section .controller button{
+        display: none;
+    }
+    .notice_visual .left_section .left_slider .card_image_box .card_image_text{
+        max-height: 100px;
+        overflow: hidden;
+    }
+    .notice_visual .left_section .left_slider .card_news .card_image_text .image_title{
+        padding: 0 20px;
+        margin-bottom: 0;
+    }
+    .notice_visual .left_section .left_slider .card_news .card_image_text .image_in_text{
+        padding: 0 15px 15px 15px;
+    }
+    .btn_service .service_tab ul li .icon_img img{
+        width: auto;
+        height: auto;
+    }
+    .btn_service .service_tab ul li p{
+        font-size: 20px;
+    }
+    .notice_visual .left_section .left_slider .card_image_box img{
+        min-height: 235px;
+    }
+    .notice_visual .left_section .left_slider .card_news .card_image_text .image_categori{
+        font-size: 14px;
+    }
+    .notice_visual .left_section .left_slider .card_news .card_image_text .image_title{
+        font-size: 16px;
+    }
+    .notice_visual .left_section .left_slider .card_news .card_image_text .image_in_text{
+        font-size: 14px;
+    }
+    .notice_visual .right_section .notice_tab button{
+        width: 65px;
+        height: 35px;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .notice_visual .right_section .notice_tab .notice, .notice_visual .right_section .notice_tab .notice.active{
+        margin-bottom: 0;
+    }
+    .notice_visual .right_section .notice_tab .notice_plusbtn{
+        width: 24px;
+        height: 24px;
+    }
+    .notice_visual .right_section{
+        margin-top: 30vh;
+    }
+    .notice_visual .right_section .notice_tab {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .notice_visual .right_section .notice_main .notice_item h4{
+        text-align: left;
+    }
+    .sns_visual_header .main_title, .sns_visual_header strong{
+        font-size: 20px;
+    }
+    .notice_visual .right_section .notice_main .notice_item{
+        width: 90vw;
+    }
+    .sns_visual_header{
+        margin-bottom: 15px;
+    }
+    .sns_visual_header .sns_sub{
+        gap: 9px;
+    }
+    .btn_service .service_tab ul li:hover .icon_img img{
+        scale: 1.08;
+    }
+    .btn_service .main_title{
+        font-size: 20px;
+        margin-bottom: 2vh;
+    }
+    .service_prev img,.service_next img{
+        width: 24px;
+        height: 24px;
+    }
+    .service_pagination span{
+        width: 10px;
+        height: 10px;
+    }
+    .service_pagination span.active{
+        width: 18px;
+    }
+    .service_pagination {
+        margin-top: 5px;
+    }
+    .btn_service{
+        padding: 2vh 4vw;
+    }
+    .sns_visual_header .sns_sub a img{
+        width: 27px;
+        height: 27px;
+    }
+    .sns_main .youtube_card{
+        height: 30vh;
+    }
+    .sns_main .face_card, .sns_main .kakao_card {
+        width: 42vw;
+        height: 40vh;
+    }
+    .sns_main .face_card .overicon, .sns_main .kakao_card .overicon{
+        top: 10px;
+        right: 6px
+    }
+    .sns_main .face_card a img , .sns_main .kakao_card a img{
+        width: inherit;
+        height: inherit;
+    }
+    .footer_top .f_t_menu .f_menu_item, .footer_top .f_t_menu a .f_menu_item{
+        width: 100vw;
+    }
+    .footer_logo {
+        width: 197px;
+        height: 60px;
+    }
+    .footer_main {
+        padding: 20px 20px;
+    }
+
+    .modal_on_media{
+        top: 148px;
+    }
+    .media_modal_tablet{
+        top: 148px;
+    }
+    
+    .media_modal_tablet .modal_top{
+        padding: 0 4vw;
+        width: 100vw;
+        gap: 20px;
+    }
+    .media_modal_tablet .modal_top .m_t_btn{
+        font-size: 3vw;
+        width: 25vw;
+    }
+    .media_modal_tablet .media_modal_accordion .acco .acco_head{
+        font-size: 16px;
+    }
+    .media_modal_tablet .media_modal_accordion .acco .acco_inner .acco_sub{        
+        font-size: 16px;
+    }
+    .tablet_search_body .search_icon{
+        padding: 20px 25px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        cursor: pointer;
+        background-color: #5089EF;
+        margin-left: 5vw;
+    }
+    .tablet_search_body .search_icon h4{
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        font-size:0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .notice_visual .right_section {
+        width: 90vw;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .media_modal_tablet .modal_top{
+        gap: 8px;
+    }
+    .media_modal_tablet .modal_top .m_t_btn {
+        font-size: 12px;
+        width: 27vw;
+    }
+}
