@@ -3,8 +3,9 @@
     <img src="https://capsule-render.vercel.app/api?type=rounded&color=ff9b0f&height=180&text=허정정&animation=fadeIn&fontColor=ffffff&fontSize=90" />
     </div>
     <div align= "center"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;> 허정 공공기관 리디자인 </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;> 혁신24 </div> 
+    <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;> 공공기관 리디자인 작업</div> 
+            <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;> 혁신24 </div> 
+
     </div>
     <div align= "center">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ 사용한 툴 </h2> <br> 
@@ -13,9 +14,10 @@
           <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
           <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
           </div>
+   ![image](https://github.com/user-attachments/assets/e5bf1048-fc36-490a-8d13-c56496ffacb3)
+
     </div>
 
-![image](https://github.com/user-attachments/assets/e5bf1048-fc36-490a-8d13-c56496ffacb3)
 
     
 # 프로젝트 설명
