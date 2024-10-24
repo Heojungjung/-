@@ -2,8 +2,8 @@
 <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=rounded&color=ff9b0f&height=180&text=허정정&animation=fadeIn&fontColor=ffffff&fontSize=90" />
     </div>
-    <div align= "center" style="margin-bottom: 300px;">  <h1>공공기관 리디자인 작업</h1> </div> 
-    <h3 align="center">혁신 24</h3>
+    <div align= "center" style="margin-bottom: 300px;">  <h1>공공기관 리디자인 작업 <br> <br> </h1> </div> 
+    <h3 align="center"> - 혁신 24 - </h3>
         <br>
         <br>
         <br>
