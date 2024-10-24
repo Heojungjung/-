@@ -41,7 +41,7 @@
 <br>
 <h3>공공기관 웹사이트 리디자인 작업으로 <a href="https://www.innovation.go.kr/ucms/main/main.do" target="_blank">'혁신24'</a> 사이트를 리디자인 했습니다.</h3>
 <hr>
-<h4>메인페이지인 index.html / 페이지 설명및 정책관련 페이지인 notice.html / 게시판 형식 페이지인 board.html 총 3개의 사이트로 구현되어있습니다. </h4>
+<h4>메인페이지인 index.html <br> 사이트 설명·정책 설명 페이지인 notice.html <br> 게시판 페이지인 board.html 총 3개의 사이트로 구현되어있습니다. </h4>
 <h4>페이지 디자인을 위한 피그마 작업물은 <a href="https://www.figma.com/design/EajVe9m9p8OPz1LYpGKV1h/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%ED%97%88%EC%A0%95?node-id=65-46&t=SN401fvkuxwzNyIq-1" target="_blank">여기</a> 에서 확인 가능합니다. </h4>
 <hr>
 <h4>작업 기간 : 24.08.07 ~ 24.10.23 </h4>
@@ -62,6 +62,18 @@
 <br>
 <br>
 
+## 0. 공통사항
+
+
+![헤더](https://github.com/user-attachments/assets/ff61a7c1-9bb9-43e5-b2a2-af0ee1b48656)
+header영역
+
+![image](https://github.com/user-attachments/assets/4e26291a-05e6-4337-ba0e-3665ae138b24)
+footer영역
+
+![검색로그인](https://github.com/user-attachments/assets/c853066b-d7ca-4644-b22b-76e9b1351a88)
+header메뉴 검색 / 로그인 기능
+
 ## 🔍 1. index.html
 
 <br>
@@ -80,6 +92,12 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 
 ![메인2](https://github.com/user-attachments/assets/3dd1de69-8c18-49c3-a783-4af9089fbf40)
 2. 서브섹션1 카드뉴스탭 자동전환 슬라이드쇼 배너
+
+![메인3](https://github.com/user-attachments/assets/14d18eef-f854-4647-9aa5-4c333de0364a)
+3. 서브섹션2 아이콘 메뉴
+
+![메인4](https://github.com/user-attachments/assets/eae4bad3-a6d7-4054-8ebf-bafe64125025)
+4. 서브섹션3 자동전환 슬라이드쇼 + 게시판 메뉴
 
 
 
