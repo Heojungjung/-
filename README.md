@@ -71,19 +71,60 @@
 
 
 ![헤더](https://github.com/user-attachments/assets/ff61a7c1-9bb9-43e5-b2a2-af0ee1b48656)
-header영역
+> header영역
 
+<br> KRDS 가이드라인에 따라 정부사이트 공식 디자인 레이아웃과 동일하게 디자인 하였습니다. 
+<br>
+<br>
+
+![헤더반응형2](https://github.com/user-attachments/assets/a13e2759-1c19-4c35-9965-c325445dbc97)
+
+<br> flex-wrap을 사용하여 데스크톱 사이즈에서는 사이즈가 변하더라도 내부 요소의 크기는 바뀌지 않고
+메뉴의 높이값만 변하는 특징이 있습니다.
+<br> 
+<br>
+<br>
+<br>
+<br>
 ![image](https://github.com/user-attachments/assets/4e26291a-05e6-4337-ba0e-3665ae138b24)
-footer영역
+> footer영역
+
+<br> header와 마찬가지로 KRDS 가이드라인에 따라 정부사이트 공식 디자인 레이아웃에 맞춰 디자인 하였습니다. 
+<br>
+<br>
+<br>
+<br>
 
 ![검색로그인](https://github.com/user-attachments/assets/c853066b-d7ca-4644-b22b-76e9b1351a88)
-header메뉴 검색 / 로그인 기능
+
+> header메뉴 서브 기능
+
+<br> 서브기능으로 검색창과 로그인메뉴 기능이 구현되어 있습니다.
+
+![서브메뉴반응형](https://github.com/user-attachments/assets/5bd77145-412d-40f2-8870-67b099a45e95)
+
+<br> 반응형으로 태블릿/모바일 사이즈에선 다른 디자인으로 구현이 되어 있습니다.
+<br>
+<br>
+<br>
+<br>
+
+![헤더반응형](https://github.com/user-attachments/assets/69343660-a472-4596-9ddf-495b558e0ffa)
+
+<br>
+<br>
+
+![푸터반응형](https://github.com/user-attachments/assets/1acdff2e-be74-4026-9389-a7f7c42dbaf5)
+<br>
+<br>
+<br> header와 footer 둘 다 데스크톱 대형 / 데스크톱 소형 / 태블릿 / 모바일 사이즈로 총 4번의 반응형 사이즈가 적용되어 있습니다.
 
 ## 🔍 1. index.html
 
 <br>
 <br>
 <img src="https://github.com/user-attachments/assets/8f66f21c-a548-4efa-b2cd-c4235d214b62">
+
 슬라이드쇼 기능 위주로 구현되어 있는 메인페이지입니다. <br>
 
 footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이지 관련 기능을 제외하곤 기능까지 구현이 되어있습니다.
@@ -93,20 +134,45 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 ### 주요기능
 
 ![메인1](https://github.com/user-attachments/assets/96d2ca2f-d332-4cf9-9b8d-7ca7ddba88b9)
-1. 메인섹션 슬라이드쇼 및 화면전환 버튼
+> 1. 메인섹션 슬라이드쇼 및 화면전환 버튼
+<br> index.html 페이지에서 가장 중심이 되는 영역입니다. 한 섹션을 가득 채우도록 swiper를 이용한 슬라이드를 배치하였습니다.
+<br>하단 버튼은 클릭시 아래섹션으로 부드럽게 이동하는 기능이 적용되어 있습니다.
+<br>
+<br>
+<br>
 
 ![메인2](https://github.com/user-attachments/assets/3dd1de69-8c18-49c3-a783-4af9089fbf40)
-2. 서브섹션1 카드뉴스탭 자동전환 슬라이드쇼 배너
+> 2. 서브섹션1 카드뉴스탭 자동전환 슬라이드쇼 배너
+<br> 이달의 추천 공공서비스와 서브 카드뉴스가 배치된 영역입니다.
+<br>
+<br>
+<br>
 
 ![메인3](https://github.com/user-attachments/assets/14d18eef-f854-4647-9aa5-4c333de0364a)
-3. 서브섹션2 아이콘 메뉴
+> 3. 서브섹션2 아이콘 메뉴
+<br> hover시 색상이 변하고 클릭시 다른 페이지로 이동하는 버튼 아이콘 메뉴입니다.
+<br>
+<br>
+<br>
 
 ![메인4](https://github.com/user-attachments/assets/eae4bad3-a6d7-4054-8ebf-bafe64125025)
-4. 서브섹션3 자동전환 슬라이드쇼 + 게시판 메뉴
+> 4. 서브섹션3 자동전환 슬라이드쇼 + 게시판 메뉴
+<br> 서브섹션1과 동일하게 자동전환 기능이 있는 슬라이드쇼입니다.
+<br> 우측의 게시판 메뉴는 클릭시 카테고리가 전환되며 해당하는 게시글만 나타나도록 구현되어 있습니다.
+<br>
+<br>
+<br>
 
-
+![메인섹션4](https://github.com/user-attachments/assets/f53bfcaa-c73e-4ccb-bf43-0242e58b0cae)
+> 5. 서브섹션4 SNS서비스
+<br> 혁신24에서 운영하는 SNS서비스탭 홍보 및 해당 사이트로 하이퍼링크가 되어있는 영역입니다.
+<br> 
+<br>
+<br>
+<br>
 
 ![반응형모바일1](https://github.com/user-attachments/assets/814c59b5-fb6b-4038-ac8d-6bbedfcb728c)
+
 ![반응형태블릿1](https://github.com/user-attachments/assets/5828dc0f-211f-4730-9e81-5a84c6339107)
 
 반응형 사이즈 태블릿 / 모바일 모두 구현이 되어있습니다.
@@ -124,7 +190,18 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 <a href ="https://www.innovation.go.kr/ucms/main/contents.do?menuNo=300095" target="_blank"> 원본사이트</a>
 <br>
 정책 설명관련으로 주로 공공기관 사이트에 있는 기관 소개 페이지를 염두에 두고 작업한 페이지입니다.
-크게 기능적인 부분은 없는 페이지입니다.
+<br>
+<br>
+<br>
+![노티스1](https://github.com/user-attachments/assets/c277569b-a2bd-47a7-8dc8-ea92a1441d05)
+> 1. 메인섹션
+<br> notice.html페이지의 메인 섹션입니다.
+<br> 좌상단 브래드스크럼 기능을 통해 index.html으로 이동하는 기능이 구현되어 있습니다.
+
+![노티스2](https://github.com/user-attachments/assets/0305e77f-3c01-477c-a07a-7b43aece27a7)
+> 2. 서브섹션1 비전 + 아이콘
+<br> 현 정부 슬로건과 혁신 비전에 관련된 아이콘 기능 입니다.
+
 반응형 사이즈 태블릿 / 모바일 모두 구현이 되어있습니다.
 <br>
 <br>
