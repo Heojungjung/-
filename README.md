@@ -100,6 +100,10 @@
 > header메뉴 서브 기능
 
 <br> 서브기능으로 검색창과 로그인메뉴 기능이 구현되어 있습니다.
+        <br>
+        <br>
+        <br>
+        <br>
 
 ![서브메뉴반응형](https://github.com/user-attachments/assets/5bd77145-412d-40f2-8870-67b099a45e95)
 
@@ -112,13 +116,22 @@
 ![헤더반응형](https://github.com/user-attachments/assets/69343660-a472-4596-9ddf-495b558e0ffa)
 
 <br>
+<br>        
 <br>
+<br>
+<br>
+       
 
 ![푸터반응형](https://github.com/user-attachments/assets/1acdff2e-be74-4026-9389-a7f7c42dbaf5)
 <br>
 <br>
 <br> header와 footer 둘 다 데스크톱 대형 / 데스크톱 소형 / 태블릿 / 모바일 사이즈로 총 4번의 반응형 사이즈가 적용되어 있습니다.
 
+<br>
+<br>
+<br>
+<br>
+        
 ## 🔍 1. index.html
 
 <br>
@@ -130,11 +143,17 @@
 footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이지 관련 기능을 제외하곤 기능까지 구현이 되어있습니다.
 
 <br>
+<br>
+<br>
+<br>
+<br>
+        
 
 ### 주요기능
 
 ![메인1](https://github.com/user-attachments/assets/96d2ca2f-d332-4cf9-9b8d-7ca7ddba88b9)
 > 1. 메인섹션 슬라이드쇼 및 화면전환 버튼
+
 <br> index.html 페이지에서 가장 중심이 되는 영역입니다. 한 섹션을 가득 채우도록 swiper를 이용한 슬라이드를 배치하였습니다.
 <br>하단 버튼은 클릭시 아래섹션으로 부드럽게 이동하는 기능이 적용되어 있습니다.
 <br>
@@ -143,6 +162,7 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 
 ![메인2](https://github.com/user-attachments/assets/3dd1de69-8c18-49c3-a783-4af9089fbf40)
 > 2. 서브섹션1 카드뉴스탭 자동전환 슬라이드쇼 배너
+
 <br> 이달의 추천 공공서비스와 서브 카드뉴스가 배치된 영역입니다.
 <br>
 <br>
@@ -150,6 +170,7 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 
 ![메인3](https://github.com/user-attachments/assets/14d18eef-f854-4647-9aa5-4c333de0364a)
 > 3. 서브섹션2 아이콘 메뉴
+
 <br> hover시 색상이 변하고 클릭시 다른 페이지로 이동하는 버튼 아이콘 메뉴입니다.
 <br>
 <br>
@@ -157,6 +178,7 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 
 ![메인4](https://github.com/user-attachments/assets/eae4bad3-a6d7-4054-8ebf-bafe64125025)
 > 4. 서브섹션3 자동전환 슬라이드쇼 + 게시판 메뉴
+
 <br> 서브섹션1과 동일하게 자동전환 기능이 있는 슬라이드쇼입니다.
 <br> 우측의 게시판 메뉴는 클릭시 카테고리가 전환되며 해당하는 게시글만 나타나도록 구현되어 있습니다.
 <br>
@@ -165,6 +187,7 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 
 ![메인섹션4](https://github.com/user-attachments/assets/f53bfcaa-c73e-4ccb-bf43-0242e58b0cae)
 > 5. 서브섹션4 SNS서비스
+
 <br> 혁신24에서 운영하는 SNS서비스탭 홍보 및 해당 사이트로 하이퍼링크가 되어있는 영역입니다.
 <br> 
 <br>
@@ -196,26 +219,55 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 <br>
 ![노티스1](https://github.com/user-attachments/assets/c277569b-a2bd-47a7-8dc8-ea92a1441d05)
 > 1. 메인섹션
+
 <br> notice.html페이지의 메인 섹션입니다.
 <br> 좌상단 브래드스크럼 기능을 통해 index.html으로 이동하는 기능이 구현되어 있습니다.
 
+<br>
+<br>
+<br>
+<br>
+        
 ![노티스2](https://github.com/user-attachments/assets/0305e77f-3c01-477c-a07a-7b43aece27a7)
 > 2. 서브섹션1 비전 + 아이콘
+
 <br> 현 정부 슬로건과 혁신 비전에 관련된 아이콘 기능 입니다.
 
+<br>
+<br>
+<br>
+<br>
+        
 ![노티스3](https://github.com/user-attachments/assets/0d24d068-8f9a-4437-a96e-1b85288eaa19)
 > 3. 서브섹션2 슬라이드 영역
+
 <br> 추진전략 및 중점과제에 대한 주제로 3개의 중점과제에 따라 3개의 슬라이드로 구분하여 배열했습니다.
 <br> 각 슬라이드는 버튼 클릭 및 슬라이드로 이동 할 수 있습니다.
 
+<br>
+<br>
+<br>
+<br>
+        
 ![노티스4](https://github.com/user-attachments/assets/07f7e3f4-17d0-41aa-aff7-1792ba790c3b)
 > 4. 서브섹션3 다운로드 영역
+
 <br> 현정부의 정부 혁신 추진계획과 이전 정부의 안건들을 다운로드·미리보기 할 수 있는 영역입니다.
-<br>
+
 
 <br>
 <br>
+<br>
+<br>
 
+![노티스반응형](https://github.com/user-attachments/assets/881bad2b-d200-497f-ba65-5931d09ba68e)
+![노티스반응형2](https://github.com/user-attachments/assets/6d62743e-c057-4a27-b2f0-0fd818ec2b76)
+
+<br>
+<br>
+<br>
+
+        
 반응형 사이즈 태블릿 / 모바일 모두 구현이 되어있습니다.
 <br>
 <br>
