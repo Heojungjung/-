@@ -1,7 +1,7 @@
 #
 <div align= "center">
-    <img src="https://capsule-render.vercel.app/api?type=rounded&color=ff9b0f&height=180&text=허정정&animation=fadeIn&fontColor=ffffff&fontSize=90" />
-    </div>
+    <img src="https://github.com/user-attachments/assets/d0f47ef0-704d-4f1b-ad5b-30b4ad107314">
+</div>
     <div align= "center" style="margin-bottom: 300px;">  <h1>공공기관 리디자인 작업 <br> <br> </h1> </div> 
     <h3 align="center"> - 혁신 24 - </h3>
         <br>
@@ -45,7 +45,8 @@
 <h4>페이지 디자인을 위한 피그마 작업물은 <a href="https://www.figma.com/design/EajVe9m9p8OPz1LYpGKV1h/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%ED%97%88%EC%A0%95?node-id=65-46&t=SN401fvkuxwzNyIq-1" target="_blank">여기</a> 에서 확인 가능합니다. </h4>
 <hr>
 <h4>작업 기간 : 24.08.07 ~ 24.10.23 </h4>
-<h4>작업 영역 : Figma 와이어프레임 및 기능정의서 제작 | Figma 페이지 소개 ppt 제작 | HTML/CSS/JS 페이지 퍼블리싱(3개 페이지)</h4>
+<h4>작업 영역</h4>
+<br>Figma 와이어프레임 및 기능정의서 제작<br> Figma 페이지 소개 ppt 제작 <br> HTML/CSS/JS 페이지 퍼블리싱(3개 페이지)
 
 <br>
 <br>
@@ -66,11 +67,21 @@
 <br>
 <br>
 <img src="https://github.com/user-attachments/assets/8f66f21c-a548-4efa-b2cd-c4235d214b62">
-슬라이드쇼 기능 위주로 구현되어 있는 메인페이지입니다.
+슬라이드쇼 기능 위주로 구현되어 있는 메인페이지입니다. <br>
 
 footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이지 관련 기능을 제외하곤 기능까지 구현이 되어있습니다.
 
 <br>
+
+### 주요기능
+
+![메인1](https://github.com/user-attachments/assets/96d2ca2f-d332-4cf9-9b8d-7ca7ddba88b9)
+1. 메인섹션 슬라이드쇼 및 화면전환 버튼
+
+![메인2](https://github.com/user-attachments/assets/3dd1de69-8c18-49c3-a783-4af9089fbf40)
+2. 서브섹션1 카드뉴스탭 자동전환 슬라이드쇼 배너
+
+
 
 ![반응형모바일1](https://github.com/user-attachments/assets/814c59b5-fb6b-4038-ac8d-6bbedfcb728c)
 ![반응형태블릿1](https://github.com/user-attachments/assets/5828dc0f-211f-4730-9e81-5a84c6339107)
