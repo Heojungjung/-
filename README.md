@@ -2,21 +2,43 @@
 <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=rounded&color=ff9b0f&height=180&text=허정정&animation=fadeIn&fontColor=ffffff&fontSize=90" />
     </div>
-    <div align= "center" style="margin-bottom: 300px;">  <h2>공공기관 리디자인 작업 혁신24 </h2> </div> 
+    <div align= "center" style="margin-bottom: 300px;">  <h1>공공기관 리디자인 작업</h1> </div> 
+    <h3 align="center">혁신 24</h3>
+        <br>
+        <br>
+        <br>
+        <br>
     <div align= "center">
+        <br>
+        <br>
+        <br>
+        <br>
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ 사용한 툴 </h2> <br> 
-    <div style="margin: 0 auto; text-align: center;" align= "center"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">
-          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
-          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
-          <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
+        <br>
+        <br>
+    <div style="margin: 0 auto; text-align: center;" align= "center"> 
+        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+        <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
+        <br>
+        <br>
+        <br>
+        <br>
           </div>
                   <img src="https://github.com/user-attachments/assets/b4713b7d-23ee-4423-b4f2-fd67df9ac7d0">
     </div>
 
     
-# 프로젝트 설명
+# 📌 프로젝트 설명
 
+<br>
+<br>
+<div align="center">
 <img src ="https://www.innovation.go.kr/static/assets_rn/images/icon/new_logo_KR.png" width="250px">
+</div>
+<br>
+<br>
 <h3>공공기관 웹사이트 리디자인 작업으로 <a href="https://www.innovation.go.kr/ucms/main/main.do" target="_blank">'혁신24'</a> 사이트를 리디자인 했습니다.</h3>
 <hr>
 <h4>메인페이지인 index.html / 페이지 설명및 정책관련 페이지인 notice.html / 게시판 형식 페이지인 board.html 총 3개의 사이트로 구현되어있습니다. </h4>
@@ -28,19 +50,41 @@
 <br>
 <br>
 
-## 1. index.html
+## 📌 사이트 설명
 
-![main](https://github.com/user-attachments/assets/8f66f21c-a548-4efa-b2cd-c4235d214b62)
+<br>
+<br>
+<h4>혁신24는 행정안전부 하위기관으로 1년 단위의 정부혁신 종합계획을 통해<br> 한 해 동안 정부의 비전과 추진전략, 중점과제를 확인 할 수 있는 사이트입니다. </h4>
 
+<br>
+<br>
+<br>
+<br>
+
+## 🔍 1. index.html
+
+<br>
+<br>
+<img src="https://github.com/user-attachments/assets/8f66f21c-a548-4efa-b2cd-c4235d214b62">
 슬라이드쇼 기능 위주로 구현되어 있는 메인페이지입니다.
+
 footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이지 관련 기능을 제외하곤 기능까지 구현이 되어있습니다.
+
+<br>
+
+![반응형모바일1](https://github.com/user-attachments/assets/814c59b5-fb6b-4038-ac8d-6bbedfcb728c)
+![반응형태블릿1](https://github.com/user-attachments/assets/5828dc0f-211f-4730-9e81-5a84c6339107)
 
 반응형 사이즈 태블릿 / 모바일 모두 구현이 되어있습니다.
 <br>
 <br>
+<br>
+<br>
 
-## 2. notice.html
+## 🔍 2. notice.html
 
+<br>
+<br>
 ![notice](https://github.com/user-attachments/assets/aee22889-ba63-4755-acf7-cc08a43a32c9)
 
 <a href ="https://www.innovation.go.kr/ucms/main/contents.do?menuNo=300095" target="_blank"> 원본사이트</a>
@@ -50,9 +94,13 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 반응형 사이즈 태블릿 / 모바일 모두 구현이 되어있습니다.
 <br>
 <br>
+<br>
+<br>
 
-## 3. board.html
+## 🔍 3. board.html
 
+<br>
+<br>
 ![board](https://github.com/user-attachments/assets/11f62934-76f9-45af-8d27-d5c12053e7ff)
 
 <a href="https://www.innovation.go.kr/ucms/bbs/B0000074/list.do?searchType=1&sort=02&searchCnd=1&pageIndex=1&menuNo=300210&searchWrd=" target="_blank">원본사이트</a>
@@ -63,8 +111,10 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 
 <br>
 <br>
+<br>
+<br>
 
-## 4. 페이지간 이동
+## 🛠️  4. 페이지간 이동
 
 
 ![image](https://github.com/user-attachments/assets/df8056be-21b3-4c99-b756-e56257ec3dac)
@@ -107,7 +157,13 @@ index.html의 '자주찾는 서비스'탭의 '혁신비전' 아이콘을 클릭 
 
 <hr>
 
-# 사용/참고 자료
+
+<br>
+<br>
+<br>
+<br>
+
+# 🛠️  사용/참고 자료
 
 <h3>폰트 사용 :  <a href="https://github.com/orioncactus/pretendard" target="_blank"> Pretendard GOV </a> </h3>
 <p>페이지 전반적으로 사용된 기본 베이스 폰트입니다.</p>
