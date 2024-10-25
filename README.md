@@ -350,3 +350,4 @@ index.html의 '자주찾는 서비스'탭의 '혁신비전' 아이콘을 클릭 
 <p>notice.html 페이지 특정 강조폰트에 사용된 폰트입니다.</p>
 
 <h3>디자인,레이아웃 참고 : <a href="https://uiux.egovframe.go.kr/guide/index.html" target="_blank"> KRDS 가이드라인 </a> </h3>
+<p>정부기관 사이트 공식 디자인 배포 레이아웃으로 적극 활용하였습니다. </p>
