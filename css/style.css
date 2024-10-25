@@ -185,6 +185,7 @@ header{
 }
 
 .w_gnb_menu .menu_wrap .menu_ul .menu_li{
+    position: relative;
     padding-top: 10px;
     padding-left: 24px;
     padding-right: 40px;
@@ -1433,6 +1434,7 @@ button#btn3 {
     align-items: center;
     margin-right: auto;
 }
+
 .login_checkbox{
     width: 15px;
     height: 15px;
@@ -1614,10 +1616,18 @@ button#btn3 {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .media_modal_tablet .media_modal_accordion .acco .acco_head img{
     width: 24px;
     height: 24px;
+}
+.acco_head>.call_to,.acco_head>.call_to>img{
+    z-index: 9999;
+    left: 20%;
+    bottom:0;
+    width: 42px!important;
+    height: 42px!important;
 }
 .media_modal_tablet .media_modal_accordion .acco .acco_head:hover{
     background-color: #F8F8F8;
@@ -1699,4 +1709,43 @@ button#btn3 {
 .acco_sub:hover a{
     text-decoration: none;
     color: #5089EF;
+}
+
+.call_to{
+    position: absolute;
+    right: -120%;
+    bottom: -80%;
+    width: 60px;
+    height: 60px;
+    animation-name: click_here;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; /* 무한 반복 */
+
+}
+.call_to img{
+    width: inherit;
+    height: inherit;
+}
+
+@keyframes click_here {
+    0% {
+        transform: translate(10px,10px);
+    }
+    50% {
+        transform: translate(-10px,-10px);
+    }
+    100% {
+        transform: translate(10px,10px);
+    }
+}
+
+.service_icon .icon{
+    position: relative;
+}
+
+.service_icon .icon .call_to{
+    position: absolute;
+    right: -30%;
+    bottom: 40%;
 }

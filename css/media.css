@@ -365,6 +365,12 @@
     .btn_service .service_tab ul li:hover .icon_img{
         scale: 1;
     }
+    .service_icon .icon .call_to {
+        position: absolute;
+        right: 0%;
+        bottom: 2%;
+    }
+    
     .notice_visual {
         padding-left: 2vw;
         padding-right: 2vw;
@@ -613,6 +619,7 @@
         width: 70vw;
         height: 15vh;
     }
+    
     .btn_service .service_tab ul li{
         margin-bottom: 10px;
     }
