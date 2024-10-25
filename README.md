@@ -8,7 +8,7 @@
         <br>
         <br>
         <br>
-    <div align= "center">
+    <div>
         <br>
         <br>
         <br>
@@ -17,18 +17,15 @@
         <br>
         <br>
     <div style="margin: 0 auto; text-align: center;" align= "center"> 
-        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
-        <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
-        <br>
-        <br>
-        <br>
-        <br>
-          </div>
                   <img src="https://github.com/user-attachments/assets/b4713b7d-23ee-4423-b4f2-fd67df9ac7d0">
     </div>
-
+    </div>
+<ul dir="auto">
+<li>개발 환경 : <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b79395c33573b8d7e844ac669512539aac60c572674913b1bb58f01268771295/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f77696e646f777331302d3030373844363f7374796c653d666c61742d737175617265266c6f676f3d77696e646f77733130266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/b79395c33573b8d7e844ac669512539aac60c572674913b1bb58f01268771295/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f77696e646f777331302d3030373844363f7374796c653d666c61742d737175617265266c6f676f3d77696e646f77733130266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&amp;logo=windows10&amp;logoColor=white" style="max-width: 100%;"></a></li>
+<li>사용 프로그램 : <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f9b6466dffd626b983aa2924664cf69336b50627b176a54442b23be46b0050a2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f567320636f64652d3030374143433f7374796c653d666c61742d737175617265266c6f676f3d76697375616c73747564696f636f6465266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/f9b6466dffd626b983aa2924664cf69336b50627b176a54442b23be46b0050a2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f567320636f64652d3030374143433f7374796c653d666c61742d737175617265266c6f676f3d76697375616c73747564696f636f6465266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=white" style="max-width: 100%;"></a>  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b9343a97a72d064251f78b66985a646e5623fb6701d15aed76b7745e0b39eb38/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6669676d612d4632344531453f7374796c653d666c61742d737175617265266c6f676f3d6669676d61266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/b9343a97a72d064251f78b66985a646e5623fb6701d15aed76b7745e0b39eb38/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6669676d612d4632344531453f7374796c653d666c61742d737175617265266c6f676f3d6669676d61266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&amp;logo=figma&amp;logoColor=white" style="max-width: 100%;"></a></li>
+<li>사용된 기술 :
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/beb60719586e15c83a588def7dd7c2e621dd03de03bbd109922e3edc47562e66/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d4533344632363f7374796c653d666c61742d737175617265266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/beb60719586e15c83a588def7dd7c2e621dd03de03bbd109922e3edc47562e66/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d4533344632363f7374796c653d666c61742d737175617265266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/html5-E34F26?style=flat-square&amp;logo=html5&amp;logoColor=white" style="max-width: 100%;"></a> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/61a01b501f7bb79e0ed1440b120bd9a9721226f9eb3594d837567e85c1aa9518/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f637373332d3135373242363f7374796c653d666c61742d737175617265266c6f676f3d63737333266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/61a01b501f7bb79e0ed1440b120bd9a9721226f9eb3594d837567e85c1aa9518/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f637373332d3135373242363f7374796c653d666c61742d737175617265266c6f676f3d63737333266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/css3-1572B6?style=flat-square&amp;logo=css3&amp;logoColor=white" style="max-width: 100%;"></a>  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d209ef4e15e2e594853ab8425b9a884338d3f1b8d25efbaedcdd616a2bc918b8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666c61742d737175617265266c6f676f3d4a617661536372697074266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/d209ef4e15e2e594853ab8425b9a884338d3f1b8d25efbaedcdd616a2bc918b8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666c61742d737175617265266c6f676f3d4a617661536372697074266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=JavaScript&amp;logoColor=white" style="max-width: 100%;"></a> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3ff59f7bc1689fe53a0798320a3740b2df851816f82def44cd6ce72c2fdbfda7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5377697065722d3633333246363f7374796c653d666c61742d737175617265266c6f676f3d537769706572266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/3ff59f7bc1689fe53a0798320a3740b2df851816f82def44cd6ce72c2fdbfda7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5377697065722d3633333246363f7374796c653d666c61742d737175617265266c6f676f3d537769706572266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&amp;logo=Swiper&amp;logoColor=white" style="max-width: 100%;"></a></li>
+</ul>
     
 # 📌 프로젝트 설명
 
@@ -278,6 +275,7 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 
 <br>
 <br>
+
 ![board](https://github.com/user-attachments/assets/11f62934-76f9-45af-8d27-d5c12053e7ff)
 
 <a href="https://www.innovation.go.kr/ucms/bbs/B0000074/list.do?searchType=1&sort=02&searchCnd=1&pageIndex=1&menuNo=300210&searchWrd=" target="_blank">원본사이트</a>
