@@ -218,6 +218,41 @@ Figma 와이어프레임 및 기능정의서 제작
 <br>
 <br>
 
+![기존비전](https://github.com/user-attachments/assets/a7f58df7-aa76-4e88-af04-76b212d5dcb8)
+
+<br>
+<br>
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/87197654-5407-4b9d-bc7c-f98b7ccdd929)
+
+<br>
+<br>
+<br>
+<br>
+<br> 5. 정부혁신페이지는 기존 3개의 페이지가 구분되어 있던 것을 하나의 페이지에 내용을 합쳤습니다.
+<br> 또한 페이지 전채적인 디자인을 손봤습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![뉴비전](https://github.com/user-attachments/assets/ebda5a4c-9d81-4d3c-81e4-66a46c99f6a5)
+
+<br>
+<br>
+<br>
+<br>
+<br> 새로 디자인한 페이지에선 메인섹션 영역을 풀페이지로 하여 시각이 더욱 집중되도록 하였습니다.
+<br> 기존의 의미불명의 개나리 이미지는 현정권을 대표하는 대통령의 이미지로 하였고 폰트 또한 해당페이지에선 나눔명조체를 같이 활용하여 강조되는 느낌을 주었습니다. 
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## 0. 공통사항
 
 
