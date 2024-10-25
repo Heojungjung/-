@@ -4,22 +4,26 @@
 </div>
     <div align= "center" style="margin-bottom: 300px;">  <h1>공공기관 리디자인 작업 <br> <br> </h1> </div> 
     <h3 align="center"> - 혁신 24 - </h3>
+        <div align="center">
+        <img src ="https://www.innovation.go.kr/static/assets_rn/images/icon/new_logo_KR.png" width="250px">
+        </div>
         <br>
         <br>
+    
+<div>
         <br>
         <br>
-    <div>
+        <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ 사용한 툴 </h2> <br> 
         <br>
         <br>
-        <br>
-        <br>
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ 사용한 툴 </h2> <br> 
-        <br>
-        <br>
-    <div style="margin: 0 auto; text-align: center;" align= "center"> 
-                  <img src="https://github.com/user-attachments/assets/b4713b7d-23ee-4423-b4f2-fd67df9ac7d0">
-    </div>
-    </div>
+    
+<div style="margin: 0 auto; text-align: center;" align= "center"> 
+        <img src="https://github.com/user-attachments/assets/b4713b7d-23ee-4423-b4f2-fd67df9ac7d0">
+    
+</div>
+
+</div>
+
 <ul dir="auto">
 <li>개발 환경 : <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b79395c33573b8d7e844ac669512539aac60c572674913b1bb58f01268771295/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f77696e646f777331302d3030373844363f7374796c653d666c61742d737175617265266c6f676f3d77696e646f77733130266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/b79395c33573b8d7e844ac669512539aac60c572674913b1bb58f01268771295/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f77696e646f777331302d3030373844363f7374796c653d666c61742d737175617265266c6f676f3d77696e646f77733130266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&amp;logo=windows10&amp;logoColor=white" style="max-width: 100%;"></a></li>
 <li>사용 프로그램 : <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f9b6466dffd626b983aa2924664cf69336b50627b176a54442b23be46b0050a2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f567320636f64652d3030374143433f7374796c653d666c61742d737175617265266c6f676f3d76697375616c73747564696f636f6465266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/f9b6466dffd626b983aa2924664cf69336b50627b176a54442b23be46b0050a2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f567320636f64652d3030374143433f7374796c653d666c61742d737175617265266c6f676f3d76697375616c73747564696f636f6465266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=white" style="max-width: 100%;"></a>  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b9343a97a72d064251f78b66985a646e5623fb6701d15aed76b7745e0b39eb38/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6669676d612d4632344531453f7374796c653d666c61742d737175617265266c6f676f3d6669676d61266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/b9343a97a72d064251f78b66985a646e5623fb6701d15aed76b7745e0b39eb38/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6669676d612d4632344531453f7374796c653d666c61742d737175617265266c6f676f3d6669676d61266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&amp;logo=figma&amp;logoColor=white" style="max-width: 100%;"></a></li>
