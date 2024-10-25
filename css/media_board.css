@@ -87,7 +87,9 @@
     .main_board{
         margin-top: 50px;
     }
-
+    .search_submit{
+        padding: 3px 15px;
+    }
     #type_search{
         width: auto;
     }
