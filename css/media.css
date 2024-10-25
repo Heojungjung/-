@@ -208,8 +208,6 @@
     .header_gnb{
         display: none;
     }
-    .main_visual{
-    }
    .swiper-slide{
     padding: 0px 8vw;
     width: 100vw!important;
@@ -371,7 +369,7 @@
         bottom: 2%;
     }
     
-    
+
     .notice_visual {
         padding-left: 2vw;
         padding-right: 2vw;
