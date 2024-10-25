@@ -225,14 +225,14 @@ Figma 와이어프레임 및 기능정의서 제작
 <br>
 <br>
 
-![image](https://github.com/user-attachments/assets/87197654-5407-4b9d-bc7c-f98b7ccdd929)
+![image](https://github.com/user-attachments/assets/5be75154-3c21-4a12-8f07-cceb4a6a354d)
 
 <br>
 <br>
 <br>
 <br>
 <br> 5. 정부혁신페이지는 기존 3개의 페이지가 구분되어 있던 것을 하나의 페이지에 내용을 합쳤습니다.
-<br> 또한 페이지 전채적인 디자인을 손봤습니다.
+<br> 그 과정에서 전채적인 페이지의 디자인을 손봤습니다.
 <br>
 <br>
 <br>
@@ -245,13 +245,64 @@ Figma 와이어프레임 및 기능정의서 제작
 <br>
 <br>
 <br>
-<br> 새로 디자인한 페이지에선 메인섹션 영역을 풀페이지로 하여 시각이 더욱 집중되도록 하였습니다.
+<br> 6. 새로 디자인한 페이지에선 메인섹션 영역을 풀페이지로 하여 시각이 더욱 집중되도록 하였습니다.
 <br> 기존의 의미불명의 개나리 이미지는 현정권을 대표하는 대통령의 이미지로 하였고 폰트 또한 해당페이지에선 나눔명조체를 같이 활용하여 강조되는 느낌을 주었습니다. 
 <br>
 <br>
 <br>
 <br>
 <br>
+
+![image](https://github.com/user-attachments/assets/7305391f-c4f4-4d86-ac40-fb008e39a8be)
+
+<br>
+<br>
+<br>
+<br>
+<br> 7. 비전 내용은 기존에 그냥 프리텐다트 폰트로 통일되어 있었습니다.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/522957a2-0fb2-4228-adb6-4f321e273387)
+
+<br>
+<br>
+<br>
+<br>
+<br> 저는 해당 비전을 '상상토끼 정묵바위' 라는 붓글씨 서체 폰트를 활용하고 포토샵 작업을 거쳐 로고로 리디자인 하여 배치했습니다.
+<br> 색상은 정부 공공기관 사이트임을 고려하여 정부 상징인 태극문양의  적색#EB003B  청색#003675 을 섞었습니다.
+<br> 또한 '혁신24'라는 이름에 걸맞게 현 정권 혁신의 상징인 정부청사 이전을 생각하여 신청사 이미지를 삽입했습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/e897656b-ea7f-403f-8ad2-109ba9a3a4f4)
+
+
+<br>
+<br>
+<br>
+<br>
+<br> 8. 혁신 4대원칙 부분은 기존 디자인이 너무 성의 없고 색상도 통일성이 없어 눈에 띈다 생각하여 살짝만 손 봤습니다.
+
+
+![뉴아이콘1](https://github.com/user-attachments/assets/f82d0d1b-d49e-4f35-9009-0a8b66b0dfc1)
+![뉴아이콘2](https://github.com/user-attachments/assets/2e0b2836-4fdb-45d7-b1e2-fcaa53e49095)
+
+<br>
+<br>
+<br>
+<br>
+<br> 색상을 통일하는 대신 기존 고정된 디자인에서 hover기능을 넣어 조금 더 강조하는 느낌을 주었고 반응형으로 배열 방식이 변동되도록 하였습니다.
+
+
+
 
 ## 0. 공통사항
 
