@@ -224,7 +224,7 @@ Figma 와이어프레임 및 기능정의서 제작
 ![헤더](https://github.com/user-attachments/assets/ff61a7c1-9bb9-43e5-b2a2-af0ee1b48656)
 > header영역
 
-<br> KRDS 가이드라인에 따라 정부사이트 공식 디자인 레이아웃과 동일하게 디자인 하였습니다. 
+<br> KRDS 가이드라인에 따라 정부사이트 공식 디자인 레이아웃·규정을 참고하여 디자인 하였습니다. 
 <br>
 <br>
 
@@ -241,7 +241,7 @@ Figma 와이어프레임 및 기능정의서 제작
 ![image](https://github.com/user-attachments/assets/4e26291a-05e6-4337-ba0e-3665ae138b24)
 > footer영역
 
-<br> header와 마찬가지로 KRDS 가이드라인에 따라 정부사이트 공식 디자인 레이아웃에 맞춰 디자인 하였습니다. 
+<br> header와 마찬가지로 KRDS 가이드라인에 따라 정부사이트 공식 디자인 레이아웃·규정에 맞춰 디자인 하였습니다. 
 <br>
 <br>
 <br>
