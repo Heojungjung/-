@@ -2,34 +2,12 @@
 <div align= "center">
     <img src="https://github.com/user-attachments/assets/d0f47ef0-704d-4f1b-ad5b-30b4ad107314">
 </div>
-    <div align= "center" style="margin-bottom: 300px;">  <h1>공공기관 리디자인 작업 <br> <br> </h1> </div> 
-    <h3 align="center"> - 혁신 24 - </h3>
-        <div align="center">
-        <img src ="https://www.innovation.go.kr/static/assets_rn/images/icon/new_logo_KR.png" width="250px">
-        </div>
-        <br>
-        <br>
-    
-<div>
-        <br>
-        <br>
-        <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ 사용한 툴 </h2> <br> 
-        <br>
-        <br>
-    
-<div style="margin: 0 auto; text-align: center;" align= "center"> 
-        <img src="https://github.com/user-attachments/assets/b4713b7d-23ee-4423-b4f2-fd67df9ac7d0">
+<div align= "center" style="margin-bottom: 300px;">  <h1>공공기관 리디자인 작업 <br> <br> </h1> 
+
     
 </div>
-
-</div>
-
-<ul dir="auto">
-<li>개발 환경 : <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b79395c33573b8d7e844ac669512539aac60c572674913b1bb58f01268771295/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f77696e646f777331302d3030373844363f7374796c653d666c61742d737175617265266c6f676f3d77696e646f77733130266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/b79395c33573b8d7e844ac669512539aac60c572674913b1bb58f01268771295/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f77696e646f777331302d3030373844363f7374796c653d666c61742d737175617265266c6f676f3d77696e646f77733130266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&amp;logo=windows10&amp;logoColor=white" style="max-width: 100%;"></a></li>
-<li>사용 프로그램 : <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f9b6466dffd626b983aa2924664cf69336b50627b176a54442b23be46b0050a2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f567320636f64652d3030374143433f7374796c653d666c61742d737175617265266c6f676f3d76697375616c73747564696f636f6465266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/f9b6466dffd626b983aa2924664cf69336b50627b176a54442b23be46b0050a2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f567320636f64652d3030374143433f7374796c653d666c61742d737175617265266c6f676f3d76697375616c73747564696f636f6465266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=white" style="max-width: 100%;"></a>  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b9343a97a72d064251f78b66985a646e5623fb6701d15aed76b7745e0b39eb38/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6669676d612d4632344531453f7374796c653d666c61742d737175617265266c6f676f3d6669676d61266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/b9343a97a72d064251f78b66985a646e5623fb6701d15aed76b7745e0b39eb38/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6669676d612d4632344531453f7374796c653d666c61742d737175617265266c6f676f3d6669676d61266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&amp;logo=figma&amp;logoColor=white" style="max-width: 100%;"></a></li>
-<li>사용된 기술 :
-<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/beb60719586e15c83a588def7dd7c2e621dd03de03bbd109922e3edc47562e66/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d4533344632363f7374796c653d666c61742d737175617265266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/beb60719586e15c83a588def7dd7c2e621dd03de03bbd109922e3edc47562e66/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d4533344632363f7374796c653d666c61742d737175617265266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/html5-E34F26?style=flat-square&amp;logo=html5&amp;logoColor=white" style="max-width: 100%;"></a> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/61a01b501f7bb79e0ed1440b120bd9a9721226f9eb3594d837567e85c1aa9518/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f637373332d3135373242363f7374796c653d666c61742d737175617265266c6f676f3d63737333266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/61a01b501f7bb79e0ed1440b120bd9a9721226f9eb3594d837567e85c1aa9518/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f637373332d3135373242363f7374796c653d666c61742d737175617265266c6f676f3d63737333266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/css3-1572B6?style=flat-square&amp;logo=css3&amp;logoColor=white" style="max-width: 100%;"></a>  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d209ef4e15e2e594853ab8425b9a884338d3f1b8d25efbaedcdd616a2bc918b8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666c61742d737175617265266c6f676f3d4a617661536372697074266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/d209ef4e15e2e594853ab8425b9a884338d3f1b8d25efbaedcdd616a2bc918b8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666c61742d737175617265266c6f676f3d4a617661536372697074266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=JavaScript&amp;logoColor=white" style="max-width: 100%;"></a> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3ff59f7bc1689fe53a0798320a3740b2df851816f82def44cd6ce72c2fdbfda7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5377697065722d3633333246363f7374796c653d666c61742d737175617265266c6f676f3d537769706572266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/3ff59f7bc1689fe53a0798320a3740b2df851816f82def44cd6ce72c2fdbfda7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5377697065722d3633333246363f7374796c653d666c61742d737175617265266c6f676f3d537769706572266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&amp;logo=Swiper&amp;logoColor=white" style="max-width: 100%;"></a></li>
-</ul>
+<br>
+<br>
     
 # 📌 프로젝트 설명
 
@@ -40,19 +18,46 @@
 </div>
 <br>
 <br>
+
 <h3>공공기관 웹사이트 리디자인 작업으로 <a href="https://www.innovation.go.kr/ucms/main/main.do" target="_blank">'혁신24'</a> 사이트를 리디자인 했습니다.</h3>
+<br>
+<br>
 <hr>
-<h4>메인페이지인 index.html <br> 사이트 설명·정책 설명 페이지인 notice.html <br> 게시판 페이지인 board.html 총 3개의 사이트로 구현되어있습니다. </h4>
-<h4>페이지 디자인을 위한 피그마 작업물은 <a href="https://www.figma.com/design/EajVe9m9p8OPz1LYpGKV1h/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%ED%97%88%EC%A0%95?node-id=65-46&t=SN401fvkuxwzNyIq-1" target="_blank">여기</a> 에서 확인 가능합니다. </h4>
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/e28ab233-73eb-449d-ba42-ba4bfa2969c7)
+
+
+<p>메인페이지인 index.html <br> 사이트 설명·정책 설명 페이지인 notice.html <br> 게시판 페이지인 board.html 총 3개의 사이트로 구현되어있습니다. </p>
+<br>
+<p>페이지 디자인을 위한 가이드라인,와이어프레임,기능정의서 Figma 작업물은 <a href="https://www.figma.com/design/EajVe9m9p8OPz1LYpGKV1h/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%ED%97%88%EC%A0%95?node-id=65-46&t=SN401fvkuxwzNyIq-1" target="_blank">여기</a> 에서 확인 가능합니다. </p>
+<br>
+<br>
 <hr>
-<h4>📆작업 기간 : 24.08.07 ~ 24.10.24 </h4>
-<br>기획 : 4일(24.08.07 ~ 24.08.10)
+<br>
+<br>
+<br>
+
+## 📆작업 기간 : 24.08.07 ~ 24.10.24
+기획 : 4일(24.08.07 ~ 24.08.10)
 <br>1차 디자인 : 7일(24.08.11 ~ 24.08.17)
 <br>디자인 피드백 : 3일(24.08.18 ~ 24.08.20)
 <br>개발 : 52일(24.08.21 ~ 24.10.22)
 <br>마무리 피드백 : 2일(24.10.23 ~ 24.10.24)
-<h4>작업 영역</h4>
-<br>Figma 와이어프레임 및 기능정의서 제작<br> Figma 페이지 소개 ppt 제작 <br> HTML/CSS/JS 페이지 퍼블리싱(3개 페이지)
+
+## 🖥작업 영역
+Figma 와이어프레임 및 기능정의서 제작
+<br> Figma 페이지 소개 ppt 제작 
+<br> HTML/CSS/JS 페이지 퍼블리싱(3개 페이지)
+<br> Photoshop 사용할 이미지 편집 작업
+
+## 🛠 개발 환경
+
+- 개발 환경 : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
+- 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+- 사용된 기술 :
+  <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white">
 
 <br>
 <br>
@@ -61,12 +66,29 @@
 
 <br>
 <br>
-<h4>혁신24는 행정안전부 하위기관으로 1년 단위의 정부혁신 종합계획을 통해<br> 한 해 동안 정부의 비전과 추진전략, 중점과제를 확인 할 수 있는 사이트입니다. </h4>
+<p>'혁신24'는 행정안전부 하위기관으로 1년 단위의 정부혁신 종합계획을 통해<br> 한 해 동안 정부의 비전과 추진전략, 중점과제를 확인 할 수 있는 사이트입니다. </p>
+
+![image](https://github.com/user-attachments/assets/9c829901-1de6-4799-afe5-79164c380d1c)
+
+<p> 원본 사이트 디자인입니다. <br> 제 견해로는 해당 사이트에 문제점이 상당히 많이 보였기에, 이 페이지를 리디자인하면 before / after가 확실하게 보일 것이란 생각이 들어 작업 대상으로 선정하게 되었습니다.  </p>
+<br>
+<br>
+
+
+![image](https://github.com/user-attachments/assets/0a8cd6dc-f10d-4ff3-918c-49a14e5af398)
+
+<p>작업을 할 때 <a href="https://uiux.egovframe.go.kr/guide/index.html"> 'KRDS' </a> 라는 정부공공사이트 공식 디자인 가이드라인 레이아웃을 적극 참고하며 디자인 하였습니다. <br>
+실제 제가 공공기관 사이트 퍼블리싱 작업을 회사에서 작업하게 되었다는 마음가짐으로 디자인 측면에서 개성을 살리기 보다는 공식 배포된 디자인과의 유사성을 갖추기 위해 노력했습니다.  </p>
 
 <br>
 <br>
 <br>
-<br>
+
+
+## 문제점 · 개선사항
+
+
+
 
 ## 0. 공통사항
 
