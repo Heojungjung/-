@@ -33,6 +33,8 @@
 <br>
 <p>페이지 디자인을 위한 가이드라인,와이어프레임,기능정의서 Figma 작업물은 <a href="https://www.figma.com/design/EajVe9m9p8OPz1LYpGKV1h/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%ED%97%88%EC%A0%95?node-id=65-46&t=SN401fvkuxwzNyIq-1" target="_blank">여기</a> 에서 확인 가능합니다. </p>
 <br>
+<p> 데모페이지 : <a href="https://heojungjung.github.io/Heojung_GOVsite_design/index.html">https://heojungjung.github.io/Heojung_GOVsite_design/index.html </a> </p>
+<br>
 <br>
 <hr>
 <br>
@@ -480,14 +482,6 @@ Figma 와이어프레임 및 기능정의서 제작
 <br> KRDS 가이드라인에 따라 정부사이트 공식 디자인 레이아웃·규정을 참고하여 디자인 하였습니다. 
 <br>
 <br>
-
-![헤더반응형2](https://github.com/user-attachments/assets/a13e2759-1c19-4c35-9965-c325445dbc97)
-
-<br> flex-wrap을 사용하여 데스크톱 사이즈에서는 사이즈가 변하더라도 내부 요소의 크기는 바뀌지 않고
-메뉴의 높이값만 변하는 특징이 있습니다.
-<br> 
-<br>
-<br>
 <br>
 <br>
 
@@ -704,7 +698,8 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 <br>
 <br>
 
-![최초최고 뉴2](https://github.com/user-attachments/assets/b15c48ab-cf9f-46a5-adb3-ed8637a69a4f)
+![최최녹화re](https://github.com/user-attachments/assets/ce6a9ba9-0792-45b9-ab7c-58ae62d60344)
+
 
 > 2. 최고·최초 카테고리로 각 요소가 구분되어 있으며 상단 메뉴를 통해 전환이 가능한 구조입니다.
 <br> 요소에는 해쉬태그로 각 사례에 관한 키워드를 뒀습니다.
@@ -724,9 +719,10 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 <br>
 <br>
 
-![게시판태블릿](https://github.com/user-attachments/assets/fe231556-0667-4c5a-862f-2b4a50bc9850)
+![최최태블릿](https://github.com/user-attachments/assets/8962313f-c0c9-4964-860c-6e14a21774ac)
 
-![게시판모바일](https://github.com/user-attachments/assets/211ce976-ab8b-46c8-a938-05fb04c1e60c)
+![최최모바일](https://github.com/user-attachments/assets/63ae555e-519d-4355-bcda-affc971043b5)
+
 
 <br>
 <br>
@@ -784,6 +780,15 @@ index.html의 '자주찾는 서비스'탭의 '혁신비전' 아이콘을 클릭 
 
 <hr>
 
+<br>
+<br>
+<br>
+
+![콜투액션](https://github.com/user-attachments/assets/d10219c4-cd9b-430d-9ae9-cf6c925ce344)
+
+<br>
+<br>
+<h4>데모페이지에선 이용자의 움직임을 유도하기 위해 콜투액션 기능을 삽입했습니다. </h4>
 
 <br>
 <br>
