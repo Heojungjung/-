@@ -703,16 +703,18 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 
 ![image](https://github.com/user-attachments/assets/df8056be-21b3-4c99-b756-e56257ec3dac)
 <br>
-<h4> index.html에서 notice.html과 board.html로 이동 하려면 상단 nav의 메뉴에서
-'정부혁신' 영역을 이용하면 notice.html로 이동을 할 수 있습니다. </h4>
+<h4> index.html에서 notice.html과 board.html로 이동 <br>
+상단 nav의 메뉴에서 '정부혁신' 영역을 이용하면 notice.html로 이동을 할 수 있습니다. </h4>
 
 <br>
 
 ![image](https://github.com/user-attachments/assets/7f052a5a-6ff3-4f41-98a0-b2ec05e4f008)
 
 <br>
-<h4> '자료실'영역의 '최초·최고 사례' 영역을 이용하면 board.html로 이동 할 수 있습니다.
-각 페이지에서 로고를 클릭하면 index.html로 다시 돌아옵니다. </h4>
+<h4> '자료실'영역의 '최초·최고 사례' 영역을 클릭 시 <br>
+board.html로 이동 할 수 있습니다. 
+    <br>
+    각 페이지에서 로고를 클릭하면 index.html로 다시 돌아옵니다. </h4>
 
 
 <br>
@@ -736,7 +738,7 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 
 <br>
 <h4>
-index.html의 '자주찾는 서비스'탭의 '혁신비전' 아이콘을 클릭 시에 notice페이지의 비전 영역으로 바로 이동합니다.
+index.html의 '자주찾는 서비스'탭의 '혁신비전' 아이콘을 클릭 시에 notice페이지의 비전 영역으로 이동합니다.
 </h4>
 
 <hr>
