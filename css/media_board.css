@@ -94,5 +94,10 @@
     .board_categori{
         margin: auto;
     }
-    
+    .item_foot{
+        padding-top: 20px;
+    }
+    .item_foot .foot{
+        padding: 5px 7px;
+    }
 }
