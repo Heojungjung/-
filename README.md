@@ -231,7 +231,7 @@ Figma 와이어프레임 및 기능정의서 제작
 <br>
 <br>
 <br>
-<br> 5. 정부혁신페이지는 기존 3개의 페이지가 구분되어 있던 것을 하나의 페이지에 내용을 합쳤습니다.
+<br> 5. 정부혁신페이지는 기존 3개의 페이지가 구분되어 있던 것을 notice.html이란 이름으로 하나의 페이지에 내용을 합쳤습니다. 
 <br> 그 과정에서 전채적인 페이지의 디자인을 손봤습니다.
 <br>
 <br>
@@ -273,7 +273,7 @@ Figma 와이어프레임 및 기능정의서 제작
 <br>
 <br>
 <br>
-<br> 해당 비전을 '상상토끼 정묵바위' 라는 붓글씨 서체 폰트를 활용하고 포토샵 작업을 거쳐 로고로 리디자인 하여 배치했습니다.
+<br> 해당 비전을 '정묵바위' 라는 붓글씨 서체 폰트를 활용하고 포토샵 작업을 거쳐 로고로 리디자인 하여 배치했습니다.
 <br> 색상은 정부 공공기관 사이트임을 고려하여 정부 상징인 태극문양의  적색#EB003B  청색#003675 을 섞었습니다.
 <br> 또한 '혁신24'라는 이름에 걸맞게 현 정권 혁신의 상징인 정부청사 이전을 생각하여 신청사 이미지를 삽입했습니다.
 <br>
@@ -369,6 +369,106 @@ Figma 와이어프레임 및 기능정의서 제작
 <br>
 <br>
 
+![최초최고 기존](https://github.com/user-attachments/assets/a67d045e-a542-4064-bee5-00b1e05e4d8d)
+
+<br>
+<br>
+<br>
+<br>
+<br> 11. '정부혁신 최초·최고'라는 이름의 게시판 페이지를 board.html이란 이름으로 리디자인 했습니다. 
+<br> 
+<br>
+<br>
+<br>
+<br>
+
+![최초최고 뉴](https://github.com/user-attachments/assets/a81ad918-dccd-4cbe-979c-71a5eb050f1d)
+
+<br>
+<br>
+<br>
+<br>
+<br> 해당 페이지는 게시판 페이지기에 다른 2개의 페이지 대비 그렇게 많이 바뀌진 않았습니다. 
+<br> 
+<br>
+<br>
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/c30eb3b5-e875-4043-8ddd-0c7ff825ed66)
+
+<br> 
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/11784dfa-6d65-47cc-a180-c631143a6226)
+
+<br>
+<br>
+<br>
+<br>
+<br> 12. 공지·안내탭을 삭제하고 최고,최초 2개의 탭으로만 개편했습니다. 공지·안내 부분은 이 페이지가 아닌 공지사항 탭의 공지·안내 영역에 가는 것이 마땅하다 느꼈습니다.
+<br> 또한 최고는 파란색 계열, 최초는 붉은색 계열로 포인트컬러를 강조하여 서로 잘 구분되게 했습니다.
+<br>
+<br>
+<br>
+<br>
+
+
+![image](https://github.com/user-attachments/assets/6bdfaeee-edb1-4fd2-b56d-75be677dbc09)
+
+<br>
+<br>
+<br>
+<br>
+<br> 
+
+![image](https://github.com/user-attachments/assets/d6c5f007-b846-4c8d-9bc5-76505259bfac)
+
+<br>
+<br>
+<br>
+<br>
+<br> 검색창과 정렬기준탭은 동일섹션으로 위치를 맞추었고 기존 정렬 기준에는 드롭다운 메뉴를 통해 옵션을 선택해야 했습니다. 
+<br> 변경된 디자인에선 번거로움이 적도록 그냥 우상단에 선택지를 구분하여 두고 즉시 클릭 하능하게 했습니다.
+<br>
+<br>
+<br>
+<br>
+<br> 
+
+![image](https://github.com/user-attachments/assets/9af20f0f-aa36-4eed-bd2f-910832489792)
+<br>
+<br>
+<br>
+<br>
+<br> 
+![image](https://github.com/user-attachments/assets/0380d339-c829-4f73-b7ef-59307f0135d8)
+<br>
+<br>
+<br>
+<br>
+<br> 13. 기존 단순히 텍스트로 배열만 되어있던 각 요소들을 하나하나 아이콘으로 두고 해쉬태그로 키워드를 정리하는 방식으로 디자인을 변경했습니다. 
+<br> 페이지네이션 또한 KDJS 공식 디자인 레이아웃에 맞춰 새로운 디자인으로 만들었습니다.
+<br>
+<br>
+<br>
+<br>
+![image](https://github.com/user-attachments/assets/9d2d5164-4236-491f-9f58-e513183efa60)
+<br>
+<br>
+<br>
+<br>
+![image](https://github.com/user-attachments/assets/ade50cbc-aabb-4040-9747-84f7e5689e7c)
+<br>
+<br>
+<br>
+<br>
+<br> 추가적으로 반응형으로 화면 width값에 따라 정렬이 달라지며 화면을 채워 가독성을 고려했습니다.
+<br>
+<br>
+<br>
+<br>
 
 
 ## 0. 공통사항
