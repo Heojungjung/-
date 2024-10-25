@@ -689,8 +689,49 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 
 <a href="https://www.innovation.go.kr/ucms/bbs/B0000074/list.do?searchType=1&sort=02&searchCnd=1&pageIndex=1&menuNo=300210&searchWrd=" target="_blank">원본사이트</a>
 <br>
-최고·최초 혁신 사례 관련 게시판을 리디자인 한 페이지입니다.
-정렬기능은 기능 구현을 하지 못했습니다.
+최고·최초 혁신 사례 관련 게시판을 리디자인 한 페이지입니다. <br>
+정렬기능은 최초 퍼블리싱시 기능 구현을 고려하지 않고 디자인만 만들기로 작업을 했어서 기능 구현을 하지 않았습니다. <br>
+<br>
+<br>
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/8dd9de1c-6a90-4268-94ce-fc86ac6ca5bb)
+> 1. 하나의 게시판 사이트로 board_title이란 섹션이름으로 브래드스크럼, 게시판 타이틀과 설명, 카테고리 구분 메뉴를 배치했습니다.
+
+<br>
+<br>
+<br>
+<br>
+
+![최초최고 뉴2](https://github.com/user-attachments/assets/b15c48ab-cf9f-46a5-adb3-ed8637a69a4f)
+
+> 2. 최고·최초 카테고리로 각 요소가 구분되어 있으며 상단 메뉴를 통해 전환이 가능한 구조입니다.
+<br> 요소에는 해쉬태그로 각 사례에 관한 키워드를 뒀습니다.
+<br> 페이지네이션으로 페이지 전환도 가능합니다.
+<br>
+<br>
+<br>
+<br>
+
+![반응형전환](https://github.com/user-attachments/assets/c60ae5cc-eb1a-41f4-88fd-93cae84742a3)
+
+> 3. 각 객체는 반응형으로 width값에 맞춰 배치와 요소 크기가 변경됩니다.
+<br> 최대한 가독성이 좋도록 요소의 밀도와 크기유지에 신경을 썻습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![게시판태블릿](https://github.com/user-attachments/assets/fe231556-0667-4c5a-862f-2b4a50bc9850)
+
+![게시판모바일](https://github.com/user-attachments/assets/211ce976-ab8b-46c8-a938-05fb04c1e60c)
+
+<br>
+<br>
+<br>
+
 반응형 사이즈 태블릿 / 모바일 모두 구현이 되어있습니다.
 
 <br>
