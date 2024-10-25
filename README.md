@@ -541,7 +541,8 @@ Figma 와이어프레임 및 기능정의서 제작
 
 <br>
 <br>
-<img src="https://github.com/user-attachments/assets/8f66f21c-a548-4efa-b2cd-c4235d214b62">
+
+![image](https://github.com/user-attachments/assets/a940c591-889c-4663-bed4-6bd8e5bf388e)
 
 슬라이드쇼 기능 위주로 구현되어 있는 메인페이지입니다. <br>
 
@@ -614,7 +615,7 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 <br>
 <br>
 
-![notice](https://github.com/user-attachments/assets/aee22889-ba63-4755-acf7-cc08a43a32c9)
+![image](https://github.com/user-attachments/assets/c13b6b97-9601-4d4c-90eb-09fc2c431587)
 
 <a href ="https://www.innovation.go.kr/ucms/main/contents.do?menuNo=300095" target="_blank"> 원본사이트</a>
 <br>
@@ -684,7 +685,7 @@ footer의 일부 기능 및 자주 찾는 서비스 영역의 미구현 페이�
 <br>
 <br>
 
-![board](https://github.com/user-attachments/assets/11f62934-76f9-45af-8d27-d5c12053e7ff)
+![image](https://github.com/user-attachments/assets/b8cef68f-31ff-4d82-ac79-f8d6dd66515a)
 
 <a href="https://www.innovation.go.kr/ucms/bbs/B0000074/list.do?searchType=1&sort=02&searchCnd=1&pageIndex=1&menuNo=300210&searchWrd=" target="_blank">원본사이트</a>
 <br>
