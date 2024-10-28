@@ -135,10 +135,10 @@ header{
 .nav_li:nth-child(1).nav_li_text{
     position: relative;
 }
-.nav_li_text .call_to_header{
+.nav_li_text .call_to_header {
     position: absolute;
-    right: 20%;
-    bottom: -60%;
+    right: 81%;
+    bottom: -3%;
     z-index: 99999;
     width: 40px;
     height: 40px;
