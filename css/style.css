@@ -57,8 +57,6 @@ header{
 
 /* 헤더 중앙 */
 
-.header_in{
-}
 .head_main{
     height: 110px;
     display: flex;
@@ -133,6 +131,23 @@ header{
     background-color: white;
     align-items: center;
     padding: 0 1vw;
+}
+.nav_li:nth-child(1).nav_li_text{
+    position: relative;
+}
+.nav_li_text .call_to_header{
+    position: absolute;
+    right: 20%;
+    bottom: -60%;
+    z-index: 99999;
+    width: 40px;
+    height: 40px;
+}
+.call_to_header{
+    animation-name: click_here;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; /* 무한 반복 */
 }
 .gnb .nav_li:hover{
     background-color: #EDF1F5;
@@ -1046,8 +1061,6 @@ button#btn3 {
     border-bottom: 1px solid #A3A3A3;
 }
 
-.footer_m_left{
-}
 
 .footer_m_left .f_address h4{
     color: #555;
@@ -1600,8 +1613,6 @@ button#btn3 {
 .media_modal_tablet .modal_top .m_t_btn img{
     width: 28px;
     height: 28px;
-}
-.media_modal_tablet .media_modal_accordion{
 }
 .media_modal_tablet .media_modal_accordion .acco .acco_head{
     cursor: pointer;
