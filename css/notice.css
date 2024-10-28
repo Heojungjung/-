@@ -290,9 +290,6 @@
     font-size: 20px;
     font-weight: 500;
 }
-.left_area,.right_area{
-    width: 600px;
-}
 .line{
     display: block;
     width: 2px;
