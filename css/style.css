@@ -142,7 +142,6 @@ header{
     z-index: 99999;
     width: 40px;
     height: 40px;
-    cursor: none;
 }
 .call_to_header{
     animation-name: click_here;
@@ -253,6 +252,7 @@ header{
     border-radius: 8px;
     transition: .5s;
     cursor: pointer;
+    position: relative;
 }
 .sub_ul .sub_li:hover{
     background: #EDF1F5;
@@ -1640,7 +1640,6 @@ button#btn3 {
     bottom:0;
     width: 42px!important;
     height: 42px!important;
-    cursor: none;
 }
 .media_modal_tablet .media_modal_accordion .acco .acco_head:hover{
     background-color: #F8F8F8;
@@ -1726,15 +1725,14 @@ button#btn3 {
 
 .call_to{
     position: absolute;
-    right: -120%;
-    bottom: -80%;
+    right: 0;
+    bottom: 0%;
     width: 60px;
     height: 60px;
     animation-name: click_here;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite; /* 무한 반복 */
-    cursor: none;
 }
 .call_to img{
     width: inherit;
@@ -1762,5 +1760,4 @@ button#btn3 {
     position: absolute;
     right: -30%;
     bottom: 40%;
-    cursor: none;
 }
